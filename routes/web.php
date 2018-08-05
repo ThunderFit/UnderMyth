@@ -11,4 +11,14 @@
 |
 */
 
+
+/***** Index Page*****/
 Route::get('/', 'IndexController@get');
+
+/***** MainPages Route*****/
+Route::get('/rules', 'Main\RulesController@get');
+Route::get('/contacts', 'Main\ContactsController@get');
+Route::get('/info', 'Main\InfoController@get');
+
+/***** Redirection *****/
+Route::get('/vklink', 'Main\VkLinkController@get');
