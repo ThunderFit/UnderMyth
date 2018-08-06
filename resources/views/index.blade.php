@@ -7,7 +7,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">Новости</div>
                     <div class="panel-body">
-                        Сервис находиться на стадии разработки.
+                        Сервис находится на стадии разработки.
                         <br>
                         <br>
                         Следите за обновлениями.

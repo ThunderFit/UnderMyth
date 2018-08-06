@@ -24,10 +24,7 @@ class AuthMeHasher implements Hasher
         return count($parts) === 4 && $parts[3] === hash('sha256', hash('sha256', $value) . $parts[2]);
     }
 
-    public function needsRehash($hashedValue, array $options = [])
-    {
-
-    }
+    public function needsRehash($hashedValue, array $options = []){}
 
     public function generateSalt()
     {
