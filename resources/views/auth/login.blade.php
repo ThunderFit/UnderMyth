@@ -7,7 +7,7 @@
             <div class="panel panel-default">
                 <div class="panel-heading">Авторизация</div>
                 <div class="panel-body">
-                    <form class="form-horizontal" role="form" method="POST" action="{{ url('/auth') }}">
+                    <form class="form-horizontal" role="form" method="POST" action="{{ route('authPost') }}">
                         {{ csrf_field() }}
 
                         <div class="form-group{{ $errors->has('nick') ? ' has-error' : '' }}">
@@ -54,9 +54,9 @@
                                     Войти
                                 </button>
 
-                                {{--<a class="btn btn-link" href="{{ url('/password/reset') }}">
+                                <a class="btn btn-link" href="{{ route('resetPassword') }}">
                                     Забыли пароль?
-                                </a>--}}
+                                </a>
                             </div>
                         </div>
                     </form>

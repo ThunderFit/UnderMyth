@@ -32,7 +32,7 @@ class AuthMeHasher implements Hasher
         $maxCharIndex = count($this->chars) - 1;
         $salt = '';
 
-        for ($i = 0; $i < $this->chars; ++$i) {
+        for ($i = 0; $i < self::SALT_LENGTH; ++$i) {
             $salt .= $this->chars[mt_rand(0, $maxCharIndex)];
         }
 
