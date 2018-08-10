@@ -19,7 +19,7 @@ class CreateUsersTable extends Migration
             $table->string('password');
 
             $table->string('email')->unique()->nullable();
-            $table->string('nick')->nullable();
+            $table->string('nick')->unique();
 
             $table->boolean('is_logged')->nullable();
 

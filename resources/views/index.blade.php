@@ -3,7 +3,7 @@
 @section('content')
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-8">
                 <div class="panel panel-default">
                     <div class="panel-heading">Новости</div>
                     <div class="panel-body">
@@ -13,6 +13,9 @@
                         Следите за обновлениями.
                     </div>
                 </div>
+            </div>
+            <div class="col-md-4">
+                @include('widgets.vk.news')
             </div>
         </div>
     </div>

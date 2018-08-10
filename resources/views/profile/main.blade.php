@@ -14,16 +14,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">Навигация</div>
-                    <div class="panel-body">
-                        <a class="btn btn-default col-md-12" href="/contacts">Контакты</a>
-                        <a class="btn btn-default col-md-12" href="/rules">Правила</a>
-                        <a class="btn btn-default col-md-12" href="/info">Информация</a>
-                    </div>
-                </div>
-            </div>
+            @include('profile.rightmenu')
         </div>
     </div>
 @endsection

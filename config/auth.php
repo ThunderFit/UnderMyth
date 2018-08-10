@@ -102,9 +102,9 @@ return [
 
     'passwords' => [
         'users' => [
-            'provider' => 'users',
+            'provider' => 'AuthMe',
             'table' => 'password_resets',
-            'expire' => 60,
+            'expire' => 720,
         ],
     ],
 
