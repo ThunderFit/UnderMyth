@@ -15,7 +15,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                @include('widgets.vk.news')
+                @include('widgets.rss.sota')
             </div>
         </div>
     </div>

@@ -1,0 +1,61 @@
+
+//sb-mt main-tree
+.sb-mt-base {text-align: center;}
+.sb-mt-left {float: left;width: 250px;padding: 0px 10px 5px 0px;}
+.sb-mt-right{float: left;width: 928px;border-left: $base-services-border;}
+.sb-mt-schools-name {font-size: 24px;text-align: center;}
+.sb-mt-schools-one {width: 50%;border-left: $base-services-border;}
+.sb-mt-schools-skills {width: 100%;margin-left: 5px;}
+.sb-mt-skill-name {width: 50%;}
+.sb-mt-skill-factor {width: 20%;}
+.sb-mt-schools-select {float: left;padding: 10px 10px 10px 10px;width: 200px;min-height: 1000px;}
+.sb-mt-schools-select-tree {width: 100%;float: left;margin-left: 50px;}
+.sb-mt-schools-select-tree-container {width: 33%;height: 250px;float: left;}
+.sb-mt-schools-select-tree-center {position: absolute;border: $base-services-border;border-radius: 114px;width: 180px;height: 180px;display: flex;justify-content: center;align-items: center;margin-top: 20px;}
+.sb-mt-schools-select-tree-circle {position: absolute;}
+.sb-mt-schools-select-tree-circle-school {background: white;border: $base-services-border;border-radius: 30px;padding: 5px;width: 60px;text-align: center;font-size: 10px;font-weight: 600;height: 60px;display: flex;justify-content: center;align-items: center;flex-direction: column;cursor: pointer;}
+
+//sb-im info main
+.sb-im-exp {}
+.sb-im-title {font-size: 30px;border-bottom: 1px solid;padding: 5px;}
+.sb-im-exp-total {text-align: left;}
+.sb-im-exp-total-cur {text-align: left;}
+.sb-im-exp-total-schools {text-align: left;}
+.sb-im-right {text-align: right;}
+
+//sb-st skill-tree
+.sb-st-main {width: 910px;float: left;}
+.sb-st-title {font-size: 30px;text-align: center;border-bottom: $base-services-border;clear: both;}
+.sb-st-group {float: left;text-align: center;position: relative;width: 100%;}
+.sb-st-child {float: left;position: relative;width: 100%;}
+.sb-st-child .sb-si-container {position: relative;border: $base-services-border;font-size: 10px;width: 80px;height: 80px;font-weight: 600;display: flex;justify-content: center;align-items: center;flex-direction: column;border-bottom-left-radius: 15px;border-bottom-right-radius: 15px;}
+.sb-st-child .sb-si-container .sb-si-name {clear: both;max-width: 65px;}
+.sb-st-child .sb-si-container .sb-si-factor {font-size: 12px;}
+
+//sb-sc schools
+.sb-sc-magic {margin: 0 0 70px;}
+.sb-sc-phisical,
+.sb-sc-strategy {margin: 0px;}
+
+//sb-bs button skills
+.sb-bs {position: relative;border: $base-services-border;font-size: 10px;width: 80px;height: 25px;font-weight: 600;display: flex;justify-content: center;align-items: center;flex-direction: row;border-top-left-radius: 15px;border-top-right-radius: 15px;border-bottom: 0px;}
+.sb-bs .sb-bs-input {width: 30px;border: none;text-align: center;}
+.sb-bs-after-input {width: 10px;}
+.sb-bs .sb-bs-plus,
+.sb-bs .sb-bs-minus {width: 20px;font-size: 15px;cursor: pointer;user-select: none;-ms-user-select: none;-moz-user-select: none;-khtml-user-select: none;-webkit-user-select: none;}
+
+//sb-si skill info
+.sb-si-hover {position: absolute;background: white;border: $base-services-border;width: 200px;height: 200px;z-index: 100;display: none;left: 50%;top: 50%;}
+.sb-si-container:hover .sb-si-hover {display: block;}
+.sb-si-left {width: calc(50% - 40px);float: left;height: 100px;}
+.sb-si-center {width: 80px;float: left;}
+.sb-si-right{width: calc(50% - 40px);float: left;height: 100px;}
+
+// sb-sl skill lines
+.sb-sl {width: 100%;height: 5px;clear: both;}
+.sb-sl-top,
+.sb-sl-bottom {height: 5px; width: 50%; float: left;}
+.sb-sl-b-top {border-top: $base-services-border;}
+.sb-sl-b-bottom {border-bottom: $base-services-border;}
+.sb-sl-b-left {border-left: $base-services-border;}
+.sb-sl-b-right {border-right: $base-services-border;}

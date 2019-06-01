@@ -5,15 +5,13 @@
 
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'UnderMyth') }}</title>
+    <title>{{ config('app.name', 'SotaCalc') }}</title>
 
-    <link href="/css/app.css" rel="stylesheet">
-
+    <link href="/css/style.css" rel="stylesheet">
 
     <script>
         window.Laravel = <?php echo json_encode([
             'csrfToken' => csrf_token(),
         ]); ?>
     </script>
-    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?158"></script>
 </head>

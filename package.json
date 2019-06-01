@@ -5,14 +5,54 @@
     "dev": "gulp watch"
   },
   "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-transform-runtime": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
     "bootstrap-sass": "^3.3.7",
-    "gulp": "^3.9.1",
+    "css-loader": "^2.1.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "gulp": "^4.0.0",
     "jquery": "^3.1.0",
     "laravel-elixir": "^6.0.0-14",
-    "laravel-elixir-vue-2": "^0.2.0",
+    "laravel-elixir-vue-2": "^0.3.0",
     "laravel-elixir-webpack-official": "^1.0.2",
     "lodash": "^4.16.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
     "vue": "^2.0.1",
-    "vue-resource": "^1.0.3"
-  }
+    "vue-resource": "^1.0.3",
+    "webpack-cli": "^3.3.0"
+  },
+  "name": "sotacalc",
+  "description": "",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.4.3",
+    "babel-helpers": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.2",
+    "redux": "^4.0.1",
+    "underscore": "^1.9.1",
+    "webpack": "^4.30.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThunderFit/UnderMyth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThunderFit/UnderMyth/issues"
+  },
+  "homepage": "https://github.com/ThunderFit/UnderMyth#readme"
 }

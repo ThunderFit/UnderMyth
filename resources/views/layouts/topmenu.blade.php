@@ -10,7 +10,7 @@
             </button>
 
             <a class="navbar-brand" href="{{ url('/') }}">
-                {{ config('app.name', 'UnderMyth') }}
+                {{ config('app.name', 'SotaCalc') }}
             </a>
         </div>
 
@@ -19,11 +19,11 @@
                 <li><a href="{{ route('contacts') }}">Контакты</a></li>
                 <li><a href="{{ route('rules') }}">Правила</a></li>
                 <li><a href="{{ route('info') }}">Информация</a></li>
-                <li><a href="{{ route('vklink') }}">Мы Вконтакте</a></li>
+                <li><a href="{{ route('services') }}">Сервисы</a></li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-                @if (Auth::guest())
+                @if (auth()->guest())
                     <li><a href="{{ route('authGet') }}">Войти</a></li>
                     @if (isRegisterOn())
                         <li><a href="{{ route('registerGet') }}">Зарегистрироваться</a></li>
@@ -31,7 +31,7 @@
                 @else
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                            {{ Auth::user()->nick }} <span class="caret"></span>
+                            {{ auth()->user()->nick }} <span class="caret"></span>
                         </a>
 
                         <ul class="dropdown-menu" role="menu">

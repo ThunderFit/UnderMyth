@@ -1,5 +1,7 @@
 <?php
 
+$route = $this;
+
 /***** Index Page*****/
 $this->get('/', 'IndexController@get');
 
@@ -33,4 +35,10 @@ $this->post('/profile/changePassword', 'Auth\ChangePasswordController@reset')->M
 $this->get('/profile/resetPassword', 'Auth\ForgotPasswordController@showLinkRequestForm')->Middleware('guest')->name('resetPassword');
 $this->post('/profile/email', 'Auth\ForgotPasswordController@sendResetLinkEmail')->Middleware('guest')->name('profileEmailPost');
 
+/***** Services *****/
+
+$this->group(array('prefix' => 'services'), function () use ($route) {
+    $route->get('/', 'Services\ServicesController@get')->name('services');
+    $route->get('/build', 'Services\BuildController@get')->name('services.build');
+});
 

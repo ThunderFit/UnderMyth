@@ -40,7 +40,8 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Ошибка <b style="font-size: 100px">404</b><br>Страница не найдена</div>
+                <div class="title">Ошибка <b style="font-size: 100px">404</b><br>Страница не найдена</div><br>
+                <div class="title"><b style="font-size: 20px"><a href="/" style="text-decoration: none;">Вернуться на главную</a></b></div>
             </div>
         </div>
     </body>

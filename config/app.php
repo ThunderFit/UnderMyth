@@ -12,7 +12,7 @@ return [
     | any other location as required by the application or its packages.
     */
 
-    'name' => 'UnderMyth',
+    'name' => env('APP_NAME', 'SotaCalc'),
 
     /*
     |--------------------------------------------------------------------------
@@ -167,7 +167,7 @@ return [
          * Package Service Providers...
          */
 
-        //
+        willvincent\Feeds\FeedsServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -177,6 +177,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        App\Providers\ViewComposerServiceProvider::class,
 
     ],
 
@@ -193,6 +194,9 @@ return [
 
     'aliases' => [
 
+        /*
+         * Laravel aliases
+         */
         'App' => Illuminate\Support\Facades\App::class,
         'Artisan' => Illuminate\Support\Facades\Artisan::class,
         'Auth' => Illuminate\Support\Facades\Auth::class,
@@ -226,6 +230,15 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        /*
+         * Package vendors aliases
+         */
+        'Feeds'    => willvincent\Feeds\Facades\FeedsFacade::class,
+
+        /*
+         * self aliases
+         */
+        //
     ],
 
 ];
