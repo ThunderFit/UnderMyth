@@ -9,7 +9,7 @@
 .sb-mt-skill-name {width: 50%;}
 .sb-mt-skill-factor {width: 20%;}
 .sb-mt-schools-select {float: left;padding: 10px 10px 10px 10px;width: 200px;min-height: 1000px;}
-.sb-mt-schools-select-tree {width: 100%;float: left;margin-left: 50px;}
+.sb-mt-schools-select-tree {width: 100%;float: left;margin-left: 50px;padding-top: 10px;}
 .sb-mt-schools-select-tree-container {width: 33%;height: 250px;float: left;}
 .sb-mt-schools-select-tree-center {position: absolute;border: $base-services-border;border-radius: 114px;width: 180px;height: 180px;display: flex;justify-content: center;align-items: center;margin-top: 20px;}
 .sb-mt-schools-select-tree-circle {position: absolute;}
@@ -59,3 +59,10 @@
 .sb-sl-b-bottom {border-bottom: $base-services-border;}
 .sb-sl-b-left {border-left: $base-services-border;}
 .sb-sl-b-right {border-right: $base-services-border;}
+
+// sb-mo manage options
+.sb-mo-main {float: left;width: 910px;height: 50px;border-bottom: $base-services-border;}
+.sb-mo-main .sb-mo-input {width: 30px;border: none;text-align: center;border-bottom: $base-services-border;}
+.sb-mo-main .sb-mo-apply {border: $base-services-border;border-radius: 15px;display: inline-block;width: 25px;height: 25px;vertical-align: middle;margin-left: 5px;}
+.sb-mo-main .sb-mo-clear {border: $base-services-border;border-radius: 15px;display: inline-block;}
+.sb-mo-main .sb-mo-block-container {border: $base-services-border;padding: 5px;border-radius: 15px;margin-left: 10px;}

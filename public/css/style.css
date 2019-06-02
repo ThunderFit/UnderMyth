@@ -1,4 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@charset "UTF-8";
+.floatleft {
+  float: left; }
+
+.floatright {
+  float: right; }
+
+.floatnone {
+  float: none; }
+
 .services-container {
   width: 100%;
   min-width: 1240px; }
@@ -43,7 +52,8 @@
 .sb-mt-schools-select-tree {
   width: 100%;
   float: left;
-  margin-left: 50px; }
+  margin-left: 50px;
+  padding-top: 10px; }
 
 .sb-mt-schools-select-tree-container {
   width: 33%;
@@ -230,6 +240,38 @@
 
 .sb-sl-b-right {
   border-right: 1px solid; }
+
+.sb-mo-main {
+  float: left;
+  width: 910px;
+  height: 50px;
+  border-bottom: 1px solid; }
+
+.sb-mo-main .sb-mo-input {
+  width: 30px;
+  border: none;
+  text-align: center;
+  border-bottom: 1px solid; }
+
+.sb-mo-main .sb-mo-apply {
+  border: 1px solid;
+  border-radius: 15px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  margin-left: 5px; }
+
+.sb-mo-main .sb-mo-clear {
+  border: 1px solid;
+  border-radius: 15px;
+  display: inline-block; }
+
+.sb-mo-main .sb-mo-block-container {
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 15px;
+  margin-left: 10px; }
 
 .w-rs-title {
   font-size: 26px;

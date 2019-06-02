@@ -299,8 +299,8 @@ const schools = {
             2517: {},
         }
     },
-    'Subtlety': {
-        'name': 'Subtlety',
+    'Subterfuge': {
+        'name': 'Subterfuge',
         'skills': {
             522: {},
             153: {},

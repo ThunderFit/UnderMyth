@@ -15,13 +15,39 @@ const getSkillObj = (skillId, lvl) => {
     };
 };
 
+const getSchoolSkills = (schoolName) => {
+    return App.getStorage('build').getStorageByName('Schools').get(schoolName)['skills'] || {};
+};
+
+const getSchools = () => {
+    return App.getStorage('build').getStorageByName('Schools').getAll() || {};
+};
 
 export function skills(state = initialState, action) {
     let newState = makeNewState(state, {});
-
+    let variations = {};
+    let doubleVarioations = {};
     switch(action.type) {
         case types.SET_SKILL_LVL:
             newState[action.skill] = getSkillObj(action.skill, action.lvl);
+            break;
+        case types.SET_SCHOOL_LVL:
+            variations = getSchoolSkills(action.schoolName);
+            _.each(variations, function (skillInfo, skillId) {
+                newState[skillId] = getSkillObj(skillId, action.lvl);
+            });
+            break;
+        case types.SET_ALL_SCHOOL_LVL:
+            variations = getSchools();
+            _.each(variations, function (shcoolInfo, schoolName) {
+                doubleVarioations = shcoolInfo['skills'] || {};
+                _.each(doubleVarioations, function (skillInfo, skillId) {
+                    newState[skillId] = getSkillObj(skillId, action.lvl);
+                });
+            });
+            break;
+        case types.RESET_ALL:
+            newState = {};
             break;
         default:
             break;
