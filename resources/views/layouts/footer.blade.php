@@ -1,1 +1,1 @@
-<script src="/js/app.js"></script>
+<script src="/js/app.js?{{ config('view.version', 'v1') }}"></script>

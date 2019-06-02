@@ -5,9 +5,9 @@
 
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'SotaCalc') }}</title>
+    <title>{{ config('app.name', 'Shadow Services') }}</title>
 
-    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/style.css?{{ config('view.version', 'v1') }}" rel="stylesheet">
 
     <script>
         window.Laravel = <?php echo json_encode([
