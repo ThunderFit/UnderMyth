@@ -11,18 +11,28 @@ class SkillTree extends React.Component {
         super(props);
     }
     render() {
-        return !_.isEmpty(this.props.skillTree.id) ? (
+
+        let heveSkillId = !_.isEmpty(this.props.skillTree.id)
+        let isPlug = heveSkillId && this.props.skillTree.id !== 'plug';
+
+        return heveSkillId ? (
             <div className={'sb-st-group'} style={this.props.groupStyle}>
                 <div className={'sb-st-child'} style={this.props.style}>
                     <TopLine childkey={this.props.childkey} childCount={this.props.childCount}/>
                     <div className={'sb-si-left'}> </div>
                     <div className={'sb-si-center'}>
-                        <TopButtonsSkills skillId={this.props.skillTree.id} skills={this.props.skills}/>
-                        <div className={'sb-si-container'}>
-                            <div className={'sb-si-name'}>{this.props.skillInfo.name}</div>
-                            <div className={'sb-si-factor'}>x{this.props.skillInfo.factor}</div>
-                            <div className={'sb-si-hover'}>Skill Exp: {this.props.skillExperience}</div>
-                        </div>
+                        { (isPlug) ? (
+                            <TopButtonsSkills skillId={this.props.skillTree.id} skills={this.props.skills}/>
+                        ) : (
+                            <div className={'sb-bs-plug'}> </div>
+                        ) }
+                        { (isPlug) ? (
+                            <div className={'sb-si-container'}>
+                                <div className={'sb-si-name'}>{this.props.skillInfo.name}</div>
+                                <div className={'sb-si-factor'}>x{this.props.skillInfo.factor}</div>
+                                <div className={'sb-si-hover'}>Skill Exp: {this.props.skillExperience}</div>
+                            </div>
+                        ) : (<div className={'sb-si-container-plug'}> </div>) }
                     </div>
                     <div className={'sb-si-right'}> </div>
                     {

@@ -19,6 +19,7 @@ $this->post('/register', 'Auth\RegisterController@register')->Middleware('guest'
 $this->get('/rules', 'Main\RulesController@get')->name('rules');
 $this->get('/contacts', 'Main\ContactsController@get')->name('contacts');
 $this->get('/info', 'Main\InfoController@get')->name('info');
+$this->get('/version', 'Main\VersionController@get')->name('version');
 
 /***** Redirection *****/
 $this->get('/vklink', 'Main\VkLinkController@get')->name('vklink');

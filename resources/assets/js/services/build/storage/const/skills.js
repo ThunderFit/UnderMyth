@@ -1,6 +1,6 @@
 const skills = {
             470: {
-                'name': 'Bladed Combat',
+                'name': 'Bladed_Combat',
                 'factor': 1
             },
             10: {
@@ -12,11 +12,11 @@ const skills = {
                 'factor': 1
             },
             16: {
-                'name': 'Blade Speed',
+                'name': 'Blade_Speed',
                 'factor': 4
             },
             12: {
-                'name': 'Double Slash',
+                'name': 'Double_Slash',
                 'factor': 1
             },
             15: {
@@ -24,35 +24,35 @@ const skills = {
                 'factor': 1
             },
             13: {
-                'name': 'Vital Points',
+                'name': 'Vital_Points',
                 'factor': 1
             },
             17: {
-                'name': 'Blade Mastery',
+                'name': 'Blade_Mastery',
                 'factor': 4
             },
             18: {
-                'name': 'Whirlwind Blades',
+                'name': 'Whirlwind_Blades',
                 'factor': 2
             },
             19: {
-                'name': 'Coup de Grace',
+                'name': 'Coup_de_Grace',
                 'factor': 2
             },
             2502: {
-                'name': 'Blade Specialization',
+                'name': 'Blade_Specialization',
                 'factor': 20
             },
             471: {
-                'name': 'Bludgeon Combat',
+                'name': 'Bludgeon_Combat',
                 'factor': 1
             },
             20: {
-                'name': 'Crushing Blow',
+                'name': 'Crushing_Blow',
                 'factor': 1
             },
             21: {
-                'name': 'Break Weapon',
+                'name': 'Break_Weapon',
                 'factor': 1
             },
             23: {
@@ -68,7 +68,7 @@ const skills = {
                 'factor': 2
             },
             24: {
-                'name': 'Break Armor',
+                'name': 'Break_Armor',
                 'factor': 1
             },
             26: {
@@ -84,23 +84,23 @@ const skills = {
                 'factor': 1
             },
             29: {
-                'name': 'Ground Pound',
+                'name': 'Ground_Pound',
                 'factor': 1
             },
             2503: {
-                'name': 'Bludgeon Specialization',
+                'name': 'Bludgeon_Specialization',
                 'factor': 20
             },
             72: {
-                'name': 'Glancing Blow',
+                'name': 'Glancing_Blow',
                 'factor': 1
             },
             75: {
-                'name': 'Body Slam',
+                'name': 'Body_Slam',
                 'factor': 2
             },
             73: {
-                'name': 'Inner Strenght',
+                'name': 'Inner_Strenght',
                 'factor': 2
             },
             76: {
@@ -108,7 +108,7 @@ const skills = {
                 'factor': 1
             },
             74: {
-                'name': 'Absorb Impacts',
+                'name': 'Absorb_Impacts',
                 'factor': 1
             },
             80: {
@@ -116,7 +116,7 @@ const skills = {
                 'factor': 1
             },
             77: {
-                'name': 'Hard Headed',
+                'name': 'Hard_Headed',
                 'factor': 4
             },
             78: {
@@ -124,15 +124,15 @@ const skills = {
                 'factor': 4
             },
             79: {
-                'name': 'Knight\'s Grace',
+                'name': 'Knights_Grace',
                 'factor': 3
             },
             2541: {
-                'name': 'Valiant Warden',
+                'name': 'Valiant_Warden',
                 'factor': 3
             },
             2508: {
-                'name': 'Heavy Armor Specialization',
+                'name': 'Heavy_Armor_Specialization',
                 'factor': 20
             },
             91: {
@@ -164,11 +164,11 @@ const skills = {
                 'factor': 1
             },
             2510: {
-                'name': 'Light Armor Specialization',
+                'name': 'Light_Armor_Specialization',
                 'factor': 20
             },
             472: {
-                'name': 'Polearm Combat',
+                'name': 'Polearm_Combat',
                 'factor': 1
             },
             111: {
@@ -188,15 +188,15 @@ const skills = {
                 'factor': 1
             },
             116: {
-                'name': 'Spinning Attack',
+                'name': 'Spinning_Attack',
                 'factor': 1
             },
             120: {
-                'name': 'Defensive Positions',
+                'name': 'Defensive_Positions',
                 'factor': 4
             },
             117: {
-                'name': 'Leg Sweep',
+                'name': 'Leg_Sweep',
                 'factor': 1
             },
             118: {
@@ -204,43 +204,43 @@ const skills = {
                 'factor': 1
             },
             3323: {
-                'name': 'Bec de Faucon',
+                'name': 'Bec_de_Faucon',
                 'factor': 4
             },
             2512: {
-                'name': 'Polearm Specialization',
+                'name': 'Polearm_Specialization',
                 'factor': 20
             },
             473: {
-                'name': 'Ranged Combat',
+                'name': 'Ranged_Combat',
                 'factor': 1
             },
             121: {
-                'name': 'Aimed Shot',
+                'name': 'Aimed_Shot',
                 'factor': 1
             },
             122: {
-                'name': 'Disabling Shot',
+                'name': 'Disabling_Shot',
                 'factor': 1
             },
             129: {
-                'name': 'Ammo Scavanger',
+                'name': 'Ammo_Scavanger',
                 'factor': 4
             },
             123: {
-                'name': 'Piercing Shot',
+                'name': 'Piercing_Shot',
                 'factor': 1
             },
             124: {
-                'name': 'Blinding Shot',
+                'name': 'Blinding_Shot',
                 'factor': 1
             },
             127: {
-                'name': 'Eagle Eye',
+                'name': 'Eagle_Eye',
                 'factor': 4
             },
             126: {
-                'name': 'Rapid Fire',
+                'name': 'Rapid_Fire',
                 'factor': 1
             },
             128: {
@@ -252,11 +252,11 @@ const skills = {
                 'factor': 1
             },
             130: {
-                'name': 'Draw Strenght',
+                'name': 'Draw_Strenght',
                 'factor': 4
             },
             2513: {
-                'name': 'Ranged Specialization',
+                'name': 'Ranged_Specialization',
                 'factor': 20
             },
             131: {
@@ -264,7 +264,7 @@ const skills = {
                 'factor': 1
             },
             133: {
-                'name': 'Bolster Balance',
+                'name': 'Bolster_Balance',
                 'factor': 1
             },
             137: {
@@ -272,11 +272,11 @@ const skills = {
                 'factor': 4
             },
             132: {
-                'name': 'Shield Bash',
+                'name': 'Shield_Bash',
                 'factor': 1
             },
             134: {
-                'name': 'Dig In',
+                'name': 'Dig_In',
                 'factor': 1
             },
             138: {
@@ -284,7 +284,7 @@ const skills = {
                 'factor': 4
             },
             139: {
-                'name': 'Shield Preservation',
+                'name': 'Shield_Preservation',
                 'factor': 4
             },
             135: {
@@ -296,11 +296,11 @@ const skills = {
                 'factor': 1
             },
             140: {
-                'name': 'Stand your ground',
+                'name': 'Stand_your_ground',
                 'factor': 4
             },
             2514: {
-                'name': 'Shield Specialization',
+                'name': 'Shield_Specialization',
                 'factor': 20
             },
             6: {
@@ -312,7 +312,7 @@ const skills = {
                 'factor': 0.5
             },
             5: {
-                'name': 'Air\'s Embrace',
+                'name': 'Airs_Embrace',
                 'factor': 1
             },
             221: {
@@ -320,7 +320,7 @@ const skills = {
                 'factor': 1
             },
             8: {
-                'name': 'Rapid Discharge',
+                'name': 'Rapid_Discharge',
                 'factor': 2
             },
             2: {
@@ -328,7 +328,7 @@ const skills = {
                 'factor': 1
             },
             515: {
-                'name': 'Shield of Air',
+                'name': 'Shield_of_Air',
                 'factor': 1
             },
             7: {
@@ -336,19 +336,19 @@ const skills = {
                 'factor': 1
             },
             9: {
-                'name': 'Well Grounded',
+                'name': 'Well_Grounded',
                 'factor': 2
             },
             3: {
-                'name': 'Chain Lightning',
+                'name': 'Chain_Lightning',
                 'factor': 2
             },
             4: {
-                'name': 'Summon Air Elemental',
+                'name': 'Summon_Air_Elemental',
                 'factor': 2
             },
             2501: {
-                'name': 'Air Magic Specialization',
+                'name': 'Air_Magic_Specialization',
                 'factor': 20
             },
             34: {
@@ -356,7 +356,7 @@ const skills = {
                 'factor': 2
             },
             30: {
-                'name': 'Chaos Bolt',
+                'name': 'Chaos_Bolt',
                 'factor': 1
             },
             420: {
@@ -364,91 +364,91 @@ const skills = {
                 'factor': 4
             },
             35: {
-                'name': 'Chaotic Clone',
+                'name': 'Chaotic_Clone',
                 'factor': 2
             },
             524: {
-                'name': 'Torpid Torment',
+                'name': 'Torpid_Torment',
                 'factor': 1
             },
             31: {
-                'name': 'Tabula Rasa',
+                'name': 'Tabula_Rasa',
                 'factor': 2
             },
             497: {
-                'name': 'Chaotic Step',
+                'name': 'Chaotic_Step',
                 'factor': 1
             },
             523: {
-                'name': 'Chaotic Feedback',
+                'name': 'Chaotic_Feedback',
                 'factor': 1
             },
             37: {
-                'name': 'Summon Daemon',
+                'name': 'Summon_Daemon',
                 'factor': 6
             },
             3303: {
-                'name': 'Chaotic Shield',
+                'name': 'Chaotic_Shield',
                 'factor': 1
             },
             38: {
-                'name': 'Control Daemon',
+                'name': 'Control_Daemon',
                 'factor': 6
             },
             2504: {
-                'name': 'Chaos Magic Specialization',
+                'name': 'Chaos_Magic_Specialization',
                 'factor': 20
             },
             450: {
-                'name': 'Tap Soul',
+                'name': 'Tap_Soul',
                 'factor': 2
             },
             41: {
-                'name': 'Corpse Explosion',
+                'name': 'Corpse_Explosion',
                 'factor': 1
             },
             43: {
-                'name': 'Death Touch',
+                'name': 'Death_Touch',
                 'factor': 1
             },
             48: {
-                'name': 'Death Mastery',
+                'name': 'Death_Mastery',
                 'factor': 4
             },
             46: {
-                'name': 'Summon Skeleton',
+                'name': 'Summon_Skeleton',
                 'factor': 4
             },
             42: {
-                'name': 'Death Ray',
+                'name': 'Death_Ray',
                 'factor': 2
             },
             49: {
-                'name': 'Undead Mastery',
+                'name': 'Undead_Mastery',
                 'factor': 4
             },
             50: {
-                'name': 'Mummified Undead',
+                'name': 'Mummified_Undead',
                 'factor': 4
             },
             44: {
-                'name': 'Death Shield',
+                'name': 'Death_Shield',
                 'factor': 2
             },
             45: {
-                'name': 'Death Field',
+                'name': 'Death_Field',
                 'factor': 2
             },
             47: {
-                'name': 'Summon Lich',
+                'name': 'Summon_Lich',
                 'factor': 6
             },
             2505: {
-                'name': 'Death Magic Specialization',
+                'name': 'Death_Magic_Specialization',
                 'factor': 20
             },
             52: {
-                'name': 'Stone Fist',
+                'name': 'Stone_Fist',
                 'factor': 1
             },
             51: {
@@ -456,19 +456,19 @@ const skills = {
                 'factor': 2
             },
             53: {
-                'name': 'Obsidian Arrow',
+                'name': 'Obsidian_Arrow',
                 'factor': 2
             },
             57: {
-                'name': 'Strengh of Earth',
+                'name': 'Strengh_of_Earth',
                 'factor': 1
             },
             60: {
-                'name': 'Sympathy of Stone',
+                'name': 'Sympathy_of_Stone',
                 'factor': 4
             },
             314: {
-                'name': 'Shield of Crystal',
+                'name': 'Shield_of_Crystal',
                 'factor': 2
             },
             55: {
@@ -476,15 +476,15 @@ const skills = {
                 'factor': 3
             },
             58: {
-                'name': 'Earth\'s Embrace',
+                'name': 'Earths_Embrace',
                 'factor': 2
             },
             59: {
-                'name': 'Bulwark of Earth',
+                'name': 'Bulwark_of_Earth',
                 'factor': 4
             },
             56: {
-                'name': 'Summon Earth Elemental',
+                'name': 'Summon_Earth_Elemental',
                 'factor': 4
             },
             1353: {
@@ -492,23 +492,23 @@ const skills = {
                 'factor': 2
             },
             2506: {
-                'name': 'Earth Magic Specialization',
+                'name': 'Earth_Magic_Specialization',
                 'factor': 20
             },
             62: {
-                'name': 'Flame Fist',
+                'name': 'Flame_Fist',
                 'factor': 1
             },
             63: {
-                'name': 'Fire Arrow',
+                'name': 'Fire_Arrow',
                 'factor': 2
             },
             65: {
-                'name': 'Ignite Weapon',
+                'name': 'Ignite_Weapon',
                 'factor': 1
             },
             68: {
-                'name': 'Highly Flammable',
+                'name': 'Highly_Flammable',
                 'factor': 4
             },
             61: {
@@ -520,31 +520,31 @@ const skills = {
                 'factor': 1
             },
             69: {
-                'name': 'Fire Reach',
+                'name': 'Fire_Reach',
                 'factor': 4
             },
             70: {
-                'name': 'Fire Proof',
+                'name': 'Fire_Proof',
                 'factor': 4
             },
             66: {
-                'name': 'Ring of Fire',
+                'name': 'Ring_of_Fire',
                 'factor': 2
             },
             67: {
-                'name': 'Summon Fire Elemental',
+                'name': 'Summon_Fire_Elemental',
                 'factor': 4
             },
             2507: {
-                'name': 'Fire Magic Specialization',
+                'name': 'Fire_Magic_Specialization',
                 'factor': 20
             },
             81: {
-                'name': 'Healing Touch',
+                'name': 'Healing_Touch',
                 'factor': 1
             },
             82: {
-                'name': 'Healing Ray',
+                'name': 'Healing_Ray',
                 'factor': 2
             },
             83: {
@@ -552,31 +552,31 @@ const skills = {
                 'factor': 1
             },
             777: {
-                'name': 'Beneficent Blessing',
+                'name': 'Beneficent_Blessing',
                 'factor': 4
             },
             84: {
-                'name': 'Healing Burst',
+                'name': 'Healing_Burst',
                 'factor': 3
             },
             85: {
-                'name': 'Purify Burst',
+                'name': 'Purify_Burst',
                 'factor': 3
             },
             86: {
-                'name': 'Banish Undead',
+                'name': 'Banish_Undead',
                 'factor': 2
             },
             89: {
-                'name': 'Life Power',
+                'name': 'Life_Power',
                 'factor': 4
             },
             90: {
-                'name': 'Life Reach',
+                'name': 'Life_Reach',
                 'factor': 4
             },
             87: {
-                'name': 'Healing Grace',
+                'name': 'Healing_Grace',
                 'factor': 2
             },
             88: {
@@ -584,15 +584,15 @@ const skills = {
                 'factor': 4
             },
             3155: {
-                'name': 'Healing Blast',
+                'name': 'Healing_Blast',
                 'factor': 2
             },
             2509: {
-                'name': 'Life Magic Specialization',
+                'name': 'Life_Magic_Specialization',
                 'factor': 20
             },
             102: {
-                'name': 'Night Vision',
+                'name': 'Night_Vision',
                 'factor': 1
             },
             101: {
@@ -600,7 +600,7 @@ const skills = {
                 'factor': 1
             },
             103: {
-                'name': 'Celestial Blessing',
+                'name': 'Celestial_Blessing',
                 'factor': 1
             },
             2811: {
@@ -608,43 +608,43 @@ const skills = {
                 'factor': 1
             },
             358: {
-                'name': 'Animal Charm',
+                'name': 'Animal_Charm',
                 'factor': 1
             },
             109: {
-                'name': 'Moon Worship',
+                'name': 'Moon_Worship',
                 'factor': 4
             },
             104: {
-                'name': 'Shadow Form',
+                'name': 'Shadow_Form',
                 'factor': 1
             },
             1351: {
-                'name': 'Cocoon of Night',
+                'name': 'Cocoon_of_Night',
                 'factor': 1
             },
             2812: {
-                'name': 'Meteor Shower',
+                'name': 'Meteor_Shower',
                 'factor': 1
             },
             312: {
-                'name': 'Moon Beams',
+                'name': 'Moon_Beams',
                 'factor': 1
             },
             110: {
-                'name': 'Moon Eater',
+                'name': 'Moon_Eater',
                 'factor': 4
             },
             359: {
-                'name': 'Night Step',
+                'name': 'Night_Step',
                 'factor': 1
             },
             108: {
-                'name': 'Summon Whisp',
+                'name': 'Summon_Whisp',
                 'factor': 1
             },
             2511: {
-                'name': 'Lunar Magic Specialization',
+                'name': 'Lunar_Magic_Specialization',
                 'factor': 20
             },
             142: {
@@ -652,7 +652,7 @@ const skills = {
                 'factor': 1
             },
             141: {
-                'name': 'Searing Ray',
+                'name': 'Searing_Ray',
                 'factor': 1
             },
             143: {
@@ -664,39 +664,39 @@ const skills = {
                 'factor': 1
             },
             149: {
-                'name': 'Sun Worship',
+                'name': 'Sun_Worship',
                 'factor': 4
             },
             146: {
-                'name': 'Reveal Hidden',
+                'name': 'Reveal_Hidden',
                 'factor': 1
             },
             313: {
-                'name': 'Dazzling Rays',
+                'name': 'Dazzling_Rays',
                 'factor': 1
             },
             150: {
-                'name': 'Sun Eater',
+                'name': 'Sun_Eater',
                 'factor': 4
             },
             148: {
-                'name': 'Summon Phoenix',
+                'name': 'Summon_Phoenix',
                 'factor': 1
             },
             1352: {
-                'name': 'Elysian Illumination',
+                'name': 'Elysian_Illumination',
                 'factor': 1
             },
             2516: {
-                'name': 'Sun Magic Specialization',
+                'name': 'Sun_Magic_Specialization',
                 'factor': 20
             },
             161: {
-                'name': 'Ice Fist',
+                'name': 'Ice_Fist',
                 'factor': 1
             },
             165: {
-                'name': 'Ice Arrow',
+                'name': 'Ice_Arrow',
                 'factor': 1
             },
             162: {
@@ -704,71 +704,71 @@ const skills = {
                 'factor': 1
             },
             169: {
-                'name': 'Icy Breath',
+                'name': 'Icy_Breath',
                 'factor': 4
             },
             167: {
-                'name': 'Ice Field',
+                'name': 'Ice_Field',
                 'factor': 1
             },
             163: {
-                'name': 'Soothing Rain',
+                'name': 'Soothing_Rain',
                 'factor': 1
             },
             164: {
-                'name': 'Shield of Ice',
+                'name': 'Shield_of_Ice',
                 'factor': 1
             },
             170: {
-                'name': 'Blue Blooded',
+                'name': 'Blue_Blooded',
                 'factor': 4
             },
             166: {
-                'name': 'Summon Water Elemental',
+                'name': 'Summon_Water_Elemental',
                 'factor': 1
             },
             168: {
-                'name': 'Summon Ice Elemental',
+                'name': 'Summon_Ice_Elemental',
                 'factor': 1
             },
             2518: {
-                'name': 'Water Specialization',
+                'name': 'Water_Specialization',
                 'factor': 20
             },
             181: {
-                'name': 'Heightened Awareness',
+                'name': 'Heightened_Awareness',
                 'factor': 5
             },
             172: {
-                'name': 'Mind Wipe',
+                'name': 'Mind_Wipe',
                 'factor': 1
             },
             173: {
-                'name': 'Train Intelligence',
+                'name': 'Train_Intelligence',
                 'factor': 10
             },
             180: {
-                'name': 'Quick Swapping',
+                'name': 'Quick_Swapping',
                 'factor': 4
             },
             177: {
-                'name': 'Mind Lock',
+                'name': 'Mind_Lock',
                 'factor': 1
             },
             1357: {
-                'name': 'Spellbinder Stance',
+                'name': 'Spellbinder_Stance',
                 'factor': 1
             },
             182: {
-                'name': 'Inner Calm',
+                'name': 'Inner_Calm',
                 'factor': 4
             },
             1360: {
-                'name': 'Aetheric Feedback',
+                'name': 'Aetheric_Feedback',
                 'factor': 1
             },
             183: {
-                'name': 'Follow Through',
+                'name': 'Follow_Through',
                 'factor': 4
             },
             175: {
@@ -776,7 +776,7 @@ const skills = {
                 'factor': 4
             },
             2519: {
-                'name': 'Focus Specialization',
+                'name': 'Focus_Specialization',
                 'factor': 20
             },
             151: {
@@ -784,19 +784,19 @@ const skills = {
                 'factor': 5
             },
             155: {
-                'name': 'Armor Preservation',
+                'name': 'Armor_Preservation',
                 'factor': 4
             },
             305: {
-                'name': 'Reckless Stance',
+                'name': 'Reckless_Stance',
                 'factor': 1
             },
             71: {
-                'name': 'Defensive Stance',
+                'name': 'Defensive_Stance',
                 'factor': 1
             },
             154: {
-                'name': 'Train Strength',
+                'name': 'Train_Strength',
                 'factor': 10
             },
             11: {
@@ -804,39 +804,39 @@ const skills = {
                 'factor': 1
             },
             159: {
-                'name': 'Weapon Preservation',
+                'name': 'Weapon_Preservation',
                 'factor': 4
             },
             306: {
-                'name': 'Berserker\'s Stance',
+                'name': 'Berserkers_Stance',
                 'factor': 1
             },
             307: {
-                'name': 'Passive Stance',
+                'name': 'Passive_Stance',
                 'factor': 1
             },
             156: {
-                'name': 'Heavy Lifter',
+                'name': 'Heavy_Lifter',
                 'factor': 4
             },
             152: {
-                'name': 'Offhand Attack',
+                'name': 'Offhand_Attack',
                 'factor': 1
             },
             1358: {
-                'name': 'Fortify Defenses',
+                'name': 'Fortify_Defenses',
                 'factor': 1
             },
             157: {
-                'name': 'Offhand Defense',
+                'name': 'Offhand_Defense',
                 'factor': 4
             },
             160: {
-                'name': 'Offhand Power',
+                'name': 'Offhand_Power',
                 'factor': 4
             },
             2517: {
-                'name': 'Tactics Specialization',
+                'name': 'Tactics_Specialization',
                 'factor': 20
             },
             522: {
@@ -844,11 +844,11 @@ const skills = {
                 'factor': 1
             },
             153: {
-                'name': 'Train Dexterity',
+                'name': 'Train_Dexterity',
                 'factor': 10
             },
             521: {
-                'name': 'Engage Opponent',
+                'name': 'Engage_Opponent',
                 'factor': 1
             },
             158: {
@@ -864,23 +864,23 @@ const skills = {
                 'factor': 1
             },
             517: {
-                'name': 'Poison Weapon',
+                'name': 'Poison_Weapon',
                 'factor': 2
             },
             98: {
-                'name': 'Silent Movement',
+                'name': 'Silent_Movement',
                 'factor': 2
             },
             119: {
-                'name': 'Armor Weak Points',
+                'name': 'Armor_Weak_Points',
                 'factor': 4
             },
             934: {
-                'name': 'Safe Fall',
+                'name': 'Safe_Fall',
                 'factor': 5
             },
             100: {
-                'name': 'Sneak Attack',
+                'name': 'Sneak_Attack',
                 'factor': 2
             },
             516: {
@@ -888,11 +888,11 @@ const skills = {
                 'factor': 2
             },
             519: {
-                'name': 'Pick Locks',
+                'name': 'Pick_Locks',
                 'factor': 2
             },
             518: {
-                'name': 'Pick Pockets',
+                'name': 'Pick_Pockets',
                 'factor': 2
             },
             2557: {
@@ -900,15 +900,15 @@ const skills = {
                 'factor': 4
             },
             1359: {
-                'name': 'Opportunity Strike',
+                'name': 'Opportunity_Strike',
                 'factor': 2
             },
             2515: {
-                'name': 'Subtlety Specialization',
+                'name': 'Subterfuge_Specialization',
                 'factor': 20
             },
             413: {
-                'name': 'Tame Creature',
+                'name': 'Tame_Creature',
                 'factor': 1
             },
             437: {
@@ -916,7 +916,7 @@ const skills = {
                 'factor': 1
             },
             531: {
-                'name': 'Heal Creature',
+                'name': 'Heal_Creature',
                 'factor': 1
             },
             432: {
@@ -924,15 +924,15 @@ const skills = {
                 'factor': 1
             },
             476: {
-                'name': 'Collar Recovery',
+                'name': 'Collar_Recovery',
                 'factor': 1
             },
             530: {
-                'name': 'Resurrect Creature',
+                'name': 'Resurrect_Creature',
                 'factor': 1
             },
             433: {
-                'name': 'Combat Training',
+                'name': 'Combat_Training',
                 'factor': 1
             },
             435: {
@@ -944,7 +944,7 @@ const skills = {
                 'factor': 1
             },
             2520: {
-                'name': 'Taming Specialization',
+                'name': 'Taming_Specialization',
                 'factor': 20
             },
 };

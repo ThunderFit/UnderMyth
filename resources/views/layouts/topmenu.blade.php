@@ -12,6 +12,9 @@
             <a class="navbar-brand" href="{{ url('/') }}">
                 {{ config('app.name', 'SotaCalc') }}
             </a>
+            <a class="navbar-version" href="{{ route('version') }}">
+                {{ config('view.version', 'v1') }}
+            </a>
         </div>
 
         <div class="collapse navbar-collapse" id="app-navbar-collapse">
@@ -31,7 +34,7 @@
                 @else
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                            {{ auth()->user()->nick }} <span class="caret"></span>
+                            {{ auth()->user()->username }} <span class="caret"></span>
                         </a>
 
                         <ul class="dropdown-menu" role="menu">

@@ -1,6 +1,5 @@
 const schools = {
     'Blades': {
-        'name': 'Blades',
         'skills': {
             470: {},
             10: {},
@@ -16,7 +15,6 @@ const schools = {
         }
     },
     'Bludgeon': {
-        'name': 'Bludgeon',
         'skills': {
             471: {},
             20: {},
@@ -32,8 +30,7 @@ const schools = {
             2503: {},
         }
     },
-    'Heavy Armor': {
-        'name': 'Heavy Armor',
+    'Heavy_Armor': {
         'skills': {
             72: {},
             75: {},
@@ -48,8 +45,7 @@ const schools = {
             2508: {}
         }
     },
-    'Light Armor': {
-        'name': 'Light Armor',
+    'Light_Armor': {
         'skills': {
             91: {},
             93: {},
@@ -62,7 +58,6 @@ const schools = {
         }
     },
     'Polearms': {
-        'name': 'Polearms',
         'skills': {
             472: {},
             111: {},
@@ -78,7 +73,6 @@ const schools = {
         }
     },
     'Ranged': {
-        'name': 'Ranged',
         'skills': {
             473: {},
             121: {},
@@ -95,7 +89,6 @@ const schools = {
         }
     },
     'Shields': {
-        'name': 'Shields',
         'skills': {
             131: {},
             133: {},
@@ -111,7 +104,6 @@ const schools = {
         }
     },
     'Air': {
-        'name': 'Air',
         'skills': {
             6: {},
             1: {},
@@ -128,7 +120,6 @@ const schools = {
         }
     },
     'Chaos': {
-        'name': 'Chaos',
         'skills': {
             34: {},
             30: {},
@@ -145,7 +136,6 @@ const schools = {
         }
     },
     'Death': {
-        'name': 'Death',
         'skills': {
             450: {},
             41: {},
@@ -162,7 +152,6 @@ const schools = {
         }
     },
     'Earth': {
-        'name': 'Earth',
         'skills': {
             52: {},
             51: {},
@@ -179,7 +168,6 @@ const schools = {
         }
     },
     'Fire': {
-        'name': 'Fire',
         'skills': {
             62: {},
             63: {},
@@ -195,7 +183,6 @@ const schools = {
         }
     },
     'Life': {
-        'name': 'Life',
         'skills': {
             81: {},
             82: {},
@@ -213,7 +200,6 @@ const schools = {
         }
     },
     'Moon': {
-        'name': 'Moon',
         'skills': {
             102: {},
             101: {},
@@ -232,7 +218,6 @@ const schools = {
         }
     },
     'Sun': {
-        'name': 'Sun',
         'skills': {
             142: {},
             141: {},
@@ -248,7 +233,6 @@ const schools = {
         }
     },
     'Water': {
-        'name': 'Water',
         'skills': {
             161: {},
             165: {},
@@ -264,7 +248,6 @@ const schools = {
         }
     },
     'Focus': {
-        'name': 'Focus',
         'skills': {
             181: {},
             172: {},
@@ -280,7 +263,6 @@ const schools = {
         }
     },
     'Tactics': {
-        'name': 'Tactics',
         'skills': {
             151: {},
             155: {},
@@ -300,7 +282,6 @@ const schools = {
         }
     },
     'Subterfuge': {
-        'name': 'Subterfuge',
         'skills': {
             522: {},
             153: {},
@@ -322,7 +303,6 @@ const schools = {
         }
     },
     'Taming': {
-        'name': 'Taming',
         'skills': {
             413: {},
             437: {},

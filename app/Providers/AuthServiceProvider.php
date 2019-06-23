@@ -39,7 +39,7 @@ class AuthServiceProvider extends ServiceProvider
     {
         Auth::provider('AuthMe', function ($app, array $config) {
 
-            return new Eloquent\EloquentUserNickProvider(
+            return new Eloquent\EloquentUserNameProvider(
                 new Hashers\AuthMeHasher(),
                 Models\User::class
             );

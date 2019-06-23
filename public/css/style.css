@@ -1,4 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@charset "UTF-8";
+.navbar-version {
+  font-size: 10px;
+  padding: 14px 1px 14px 1px; }
+
 .floatleft {
   float: left; }
 
@@ -179,6 +183,17 @@
 .sb-bs-after-input {
   width: 10px; }
 
+.sb-bs-plug {
+  height: 105px;
+  width: 50%;
+  float: left; }
+
+.sb-si-container-plug {
+  height: 105px;
+  width: 50%;
+  float: left;
+  border-left: 1px solid; }
+
 .sb-bs .sb-bs-plus,
 .sb-bs .sb-bs-minus {
   width: 20px;
@@ -207,16 +222,17 @@
 .sb-si-left {
   width: calc(50% - 40px);
   float: left;
-  height: 100px; }
+  height: 105px; }
 
 .sb-si-center {
   width: 80px;
-  float: left; }
+  float: left;
+  height: 105px; }
 
 .sb-si-right {
   width: calc(50% - 40px);
   float: left;
-  height: 100px; }
+  height: 105px; }
 
 .sb-sl {
   width: 100%;
@@ -245,7 +261,8 @@
   float: left;
   width: 910px;
   height: 50px;
-  border-bottom: 1px solid; }
+  border-bottom: 1px solid;
+  font-size: 0.7em; }
 
 .sb-mo-main .sb-mo-input {
   width: 30px;
@@ -257,21 +274,34 @@
   border: 1px solid;
   border-radius: 15px;
   display: inline-block;
-  width: 25px;
-  height: 25px;
   vertical-align: middle;
-  margin-left: 5px; }
+  margin-left: 0.3em;
+  margin-right: 0.3em; }
 
 .sb-mo-main .sb-mo-clear {
   border: 1px solid;
   border-radius: 15px;
-  display: inline-block; }
+  display: inline-block;
+  width: 100px;
+  margin-left: 0.3em;
+  margin-right: 0.3em; }
+
+.sb-mo-main .sb-mo-lang {
+  border: 1px solid;
+  border-radius: 15px;
+  display: inline-block;
+  margin-left: 0.3em;
+  margin-right: 0.3em; }
 
 .sb-mo-main .sb-mo-block-container {
   border: 1px solid;
   padding: 5px;
   border-radius: 15px;
-  margin-left: 10px; }
+  margin-left: 0.3em;
+  margin-right: 0.3em; }
+
+.sb-mo-main .active {
+  background-color: white; }
 
 .w-rs-title {
   font-size: 26px;

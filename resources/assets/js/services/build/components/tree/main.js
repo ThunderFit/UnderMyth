@@ -9,7 +9,7 @@ class Main extends React.Component {
     render() {
         return (
             <div className={'sb-st-main'}>
-                <div className={'sb-st-title'}>{this.props.school.selectedSchool}</div>
+                <div className={'sb-st-title'}>{App.getStorage('build').getLang(this.props.school.selectedSchool)}</div>
                 <SkillTree skillTree={this.props.skillTree} childkey={0}/>
             </div>
         )

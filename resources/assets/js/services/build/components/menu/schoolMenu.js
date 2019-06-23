@@ -1,6 +1,6 @@
 import React from 'react';
 import _ from "underscore";
-import SchoolSelectItem from './schoolMenuSelect';
+import SchoolSelectItem from '../../containers/menu/schoolMenuSelect';
 
 class SchoolMenu extends React.Component {
     constructor(props) {

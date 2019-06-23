@@ -122,7 +122,7 @@ const skillTree = {
             }
         }
     },
-    'Heavy Armor': {
+    'Heavy_Armor': {
         'id': '72',
         'child': {
             0: {
@@ -172,7 +172,7 @@ const skillTree = {
             }
         }
     },
-    'Light Armor': {
+    'Light_Armor': {
         'id': '91',
         'child': {
             0: {
@@ -510,9 +510,19 @@ const skillTree = {
                     0: {
                         'id': '46',
                         'child': {
-                            0: { //TODO: Нужен контейнер-заглушка
-                                'id': '47',
-                                'child': {},
+                            0: {
+                                'id': 'plug',
+                                'child': {
+                                    0: {
+                                        'id': '47',
+                                        'child': {},
+                                        'style': {'left': '50%'}
+                                    }
+                                },
+                                'bottom': {
+                                    'left': false,
+                                    'right': true,
+                                }
                             }
                         }
                     }
@@ -527,6 +537,10 @@ const skillTree = {
                             0: {
                                 'id': '44',
                                 'child': {},
+                                'bottom': {
+                                    'left': true,
+                                    'right': false,
+                                }
                             },
                             1: {
                                 'id': '45',
@@ -764,7 +778,16 @@ const skillTree = {
             },
             1: {
                 'id': '103',
-                'child': {},
+                'child': {
+                    0: {
+                        'id': 'plug',
+                        'child': {},
+                        'bottom': {
+                            'left': false,
+                            'right': true,
+                        }
+                    }
+                },
             },
             2: {
                 'id': '2811',
@@ -784,7 +807,16 @@ const skillTree = {
                             0: {
                                 'id': '108',
                                 'child': {},
+                                'style': {
+                                    'left': '-100%',
+                                    'border-top': '1px solid',
+                                    'top': '-1px',
+                                }
                             }
+                        },
+                        'bottom': {
+                            'left': true,
+                            'right': false,
                         }
                     }
                 }
@@ -891,8 +923,17 @@ const skillTree = {
                                 'child': {
                                     0: {
                                         'id': '168',
-                                        'child': {}
+                                        'child': {},
+                                        'style': {
+                                            'left': '50%',
+                                            'border-top': '1px solid',
+                                            'top': '-1px',
+                                        }
                                     }
+                                },
+                                'bottom': {
+                                    'left': false,
+                                    'right': true,
                                 },
                                 'style': {'right': '50%'}
                             }
@@ -904,8 +945,16 @@ const skillTree = {
                     },
                     1: {
                         'id': '164',
-                        'child': {}
-                        //TODO: Нужна заглушка до призыва элементаля льда
+                        'child': {
+                            0: {
+                                'id': 'plug',
+                                'child': {},
+                                'bottom': {
+                                    'left': true,
+                                    'right': false,
+                                }
+                            }
+                        }
                     }
                 }
             },
@@ -1053,7 +1102,7 @@ const skillTree = {
             }
         }
     },
-    'Subtlety': {
+    'Subterfuge': {
         'id': '522',
         'child': {
             0: {

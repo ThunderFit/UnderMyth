@@ -18,6 +18,6 @@ class AuthController extends AuthBaseController
 
     protected function username()
     {
-        return 'nick';
+        return 'username';
     }
 }

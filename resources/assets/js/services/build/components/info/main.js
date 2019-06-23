@@ -7,11 +7,11 @@ class Main extends React.Component {
     render() {
         return (
             <div>
-                <div className={'sb-im-title'}>Информация</div>
+                <div className={'sb-im-title'}>{App.getStorage('build').getLang('info')}</div>
                 <div className={'sb-im-exp'}>
-                    <div className={'sb-im-exp-total'}>Всего опыта: </div>
-                    <div className={'sb-im-exp-total-cur'}>выбранная школа: {this.props.totalSchoolExp}</div>
-                    <div className={'sb-im-exp-total-schools'}>все школы: {this.props.totalExp}</div>
+                    <div className={'sb-im-exp-total'}>{App.getStorage('build').getLang('total_exp')}: </div>
+                    <div className={'sb-im-exp-total-cur'}>{App.getStorage('build').getLang('current_school')}: {this.props.totalSchoolExp}</div>
+                    <div className={'sb-im-exp-total-schools'}>{App.getStorage('build').getLang('all_schools')}: {this.props.totalExp}</div>
                 </div>
             </div>
         )

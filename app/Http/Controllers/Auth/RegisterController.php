@@ -36,8 +36,8 @@ class RegisterController extends AuthBaseController
     protected function create(array $data)
     {
         return User::create([
-            'nick' => $data['nick'],
-            'name' => strtolower($data['nick']),
+            'username' => $data['username'],
+            'name' => strtolower($data['username']),
             'password' => (new AuthMeHasher())->make($data['password']),
         ]);
     }

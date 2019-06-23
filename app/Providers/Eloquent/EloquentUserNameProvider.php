@@ -6,7 +6,7 @@ use Illuminate\Auth\EloquentUserProvider;
 use Illuminate\Contracts\Auth\Authenticatable as UserContract;
 use App\Hashers\AuthMeHasher;
 
-class EloquentUserNickProvider extends EloquentUserProvider
+class EloquentUserNameProvider extends EloquentUserProvider
 {
     public function validateCredentials(UserContract $user, array $credentials)
     {

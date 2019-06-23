@@ -1,6 +1,6 @@
 import React from 'react';
 import _ from "underscore";
-import * as buildSchoolActions from "../../actions/buildSchoolActions";
+import * as BuildActions from "../../actions";
 
 class SchoolSelectItem extends React.Component {
     constructor(props) {
@@ -8,10 +8,10 @@ class SchoolSelectItem extends React.Component {
         this.handleChange = this.handleChange.bind(this);
     }
     handleChange(event) {
-        let action = buildSchoolActions.setSchool(event.target.getAttribute('data-name'));
+        let action = BuildActions.BuildSchool.setSchool(event.target.getAttribute('data-name'));
         App.getStore('build').dispatch(action);
     }
-    getStyle(schools, key, type, selectSchool) {
+    getStyle(schools, key, type, selectSchool, name) {
 
         let typesCircle = {
             'phisical': 2.5,
@@ -30,6 +30,7 @@ class SchoolSelectItem extends React.Component {
             'top': top,
             'left': left
         };
+
         if (selectSchool) {
             styles['background-color'] = 'lightgray';
         }
@@ -54,15 +55,15 @@ class SchoolSelectItem extends React.Component {
         return (
             <div className={'sb-mt-schools-select-tree-container'}>
                 <div className={'sb-mt-schools-select-tree-circle'}>
-                    <div className={'sb-mt-schools-select-tree-center'}><p className={'sb-sc-'+type}>{type}</p></div>
+                    <div className={'sb-mt-schools-select-tree-center'}><p className={'sb-sc-'+type}>{App.getStorage('build').getLang(type)}</p></div>
                     {
-                        (type === 'magic')? (<div className={'sb-mt-schools-select-tree-circle-school'} style={self.getStyleChaos((selectedSchool === 'Chaos'))} data-name={'Chaos'}  onClick={self.handleChange}>{'Chaos'}</div>) : ('')
+                        (type === 'magic')? (<div className={'sb-mt-schools-select-tree-circle-school'} style={self.getStyleChaos((selectedSchool === 'Chaos'))} data-name={'Chaos'}  onClick={self.handleChange}>{App.getStorage('build').getLang('Chaos')}</div>) : ('')
                     }
                     {
                         _.map(schoolsTree[type], (school, key) => {
                             let selected = selectedSchool === school;
-                            let styles = self.getStyle(schoolsTree[type], key, type, selected);
-                            return <div className={'sb-mt-schools-select-tree-circle-school'} style={styles} data-name={school}  onClick={self.handleChange}>{school}</div>;
+                            let styles = self.getStyle(schoolsTree[type], key, type, selected, school);
+                            return <div className={'sb-mt-schools-select-tree-circle-school'} style={styles} data-name={school}  onClick={self.handleChange}>{App.getStorage('build').getLang(school)}</div>;
                         })
                     }
                 </div>

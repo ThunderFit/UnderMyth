@@ -2,7 +2,7 @@ import React from 'react';
 import { bindActionCreators } from "redux";
 import connect from "react-redux/es/connect/connect";
 
-import * as buildActions from "../../actions";
+import * as BuildActions from "../../actions";
 import ManageOptions from '../../components/manage/options';
 
 const MapToState = (state, context) => {
@@ -11,7 +11,7 @@ const MapToState = (state, context) => {
 
 const MapToProps = (dispatch, props) => {
     return {
-        actions: bindActionCreators(buildActions, dispatch)
+        actions: bindActionCreators(BuildActions, dispatch)
     }
 };
 export default connect(MapToState, MapToProps)(ManageOptions);

@@ -41,15 +41,17 @@
 .sb-bs {position: relative;border: $base-services-border;font-size: 10px;width: 80px;height: 25px;font-weight: 600;display: flex;justify-content: center;align-items: center;flex-direction: row;border-top-left-radius: 15px;border-top-right-radius: 15px;border-bottom: 0px;}
 .sb-bs .sb-bs-input {width: 30px;border: none;text-align: center;}
 .sb-bs-after-input {width: 10px;}
+.sb-bs-plug {height: 105px;width: 50%;float: left;}
+.sb-si-container-plug {height: 105px;width: 50%;float: left;border-left: 1px solid;}
 .sb-bs .sb-bs-plus,
 .sb-bs .sb-bs-minus {width: 20px;font-size: 15px;cursor: pointer;user-select: none;-ms-user-select: none;-moz-user-select: none;-khtml-user-select: none;-webkit-user-select: none;}
 
 //sb-si skill info
 .sb-si-hover {position: absolute;background: white;border: $base-services-border;width: 200px;height: 200px;z-index: 100;display: none;left: 50%;top: 50%;}
 .sb-si-container:hover .sb-si-hover {display: block;}
-.sb-si-left {width: calc(50% - 40px);float: left;height: 100px;}
-.sb-si-center {width: 80px;float: left;}
-.sb-si-right{width: calc(50% - 40px);float: left;height: 100px;}
+.sb-si-left {width: calc(50% - 40px);float: left;height: 105px;}
+.sb-si-center {width: 80px;float: left;height: 105px;}
+.sb-si-right{width: calc(50% - 40px);float: left;height: 105px;}
 
 // sb-sl skill lines
 .sb-sl {width: 100%;height: 5px;clear: both;}
@@ -61,8 +63,10 @@
 .sb-sl-b-right {border-right: $base-services-border;}
 
 // sb-mo manage options
-.sb-mo-main {float: left;width: 910px;height: 50px;border-bottom: $base-services-border;}
+.sb-mo-main {float: left;width: 910px;height: 50px;border-bottom: $base-services-border; font-size: 0.7em;}
 .sb-mo-main .sb-mo-input {width: 30px;border: none;text-align: center;border-bottom: $base-services-border;}
-.sb-mo-main .sb-mo-apply {border: $base-services-border;border-radius: 15px;display: inline-block;width: 25px;height: 25px;vertical-align: middle;margin-left: 5px;}
-.sb-mo-main .sb-mo-clear {border: $base-services-border;border-radius: 15px;display: inline-block;}
-.sb-mo-main .sb-mo-block-container {border: $base-services-border;padding: 5px;border-radius: 15px;margin-left: 10px;}
+.sb-mo-main .sb-mo-apply {border: $base-services-border;border-radius: 15px;display: inline-block;vertical-align: middle;margin-left: 0.3em;margin-right: 0.3em;}
+.sb-mo-main .sb-mo-clear {border: $base-services-border;border-radius: 15px;display: inline-block;width: 100px;margin-left: 0.3em;margin-right: 0.3em;}
+.sb-mo-main .sb-mo-lang {border: $base-services-border;border-radius: 15px;display: inline-block;margin-left: 0.3em;margin-right: 0.3em;}
+.sb-mo-main .sb-mo-block-container {border: $base-services-border;padding: 5px;border-radius: 15px;margin-left: 0.3em;margin-right: 0.3em;}
+.sb-mo-main .active {background-color: white;}
