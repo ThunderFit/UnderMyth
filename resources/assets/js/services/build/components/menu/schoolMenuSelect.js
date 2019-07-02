@@ -2,6 +2,39 @@ import React from 'react';
 import _ from "underscore";
 import * as BuildActions from "../../actions";
 
+const getSchoolClassName = (selectSchool, name) => {
+    let className = 'sb-mt-schools-select-tree-circle-school';
+    if (name === 'Chaos') {
+        className = className + ' sb-mt-schools-select-tree-circle-school-chaos';
+    }
+    if (selectSchool === name) {
+        className = className + ' sb-selected';
+    }
+    return className;
+};
+
+const getSchoolPosition = (schools, key, type, school) => {
+    let typesCircle = {
+        'phisical': 2.5,
+        'magic': 0,
+        'strategy': 0,
+    };
+    let radius = 90;
+    let leftWrap = 60;
+    let topWrap = 90;
+    var f = 2 / schools.length * (key + 1 + typesCircle[type]) * Math.PI;
+    var left = leftWrap + radius * Math.sin(f) + 'px';
+    var top = topWrap + radius * Math.cos(f) + 'px';
+
+    return {
+        'top': top,
+        'left': left,
+        'background': "url('/images/icons/" + school + ".png')",
+        'background-position': 'center',
+        'background-size': 'contain',
+    };
+};
+
 class SchoolSelectItem extends React.Component {
     constructor(props) {
         super(props);
@@ -10,42 +43,6 @@ class SchoolSelectItem extends React.Component {
     handleChange(event) {
         let action = BuildActions.BuildSchool.setSchool(event.target.getAttribute('data-name'));
         App.getStore('build').dispatch(action);
-    }
-    getStyle(schools, key, type, selectSchool, name) {
-
-        let typesCircle = {
-            'phisical': 2.5,
-            'magic': 0,
-            'strategy': 0,
-        };
-        let radius = 90;
-        let leftWrap = 60;
-        let topWrap = 90;
-        var f = 2 / schools.length * (key + 1 + typesCircle[type]) * Math.PI;
-        var left = leftWrap + radius * Math.sin(f) + 'px';
-        var top = topWrap + radius * Math.cos(f) + 'px';
-
-        let styles = {
-            'position': 'absolute',
-            'top': top,
-            'left': left
-        };
-
-        if (selectSchool) {
-            styles['background-color'] = 'lightgray';
-        }
-        return styles;
-    }
-    getStyleChaos(selectSchool) {
-        let styles = {
-            'position': 'absolute',
-            'top': '90px',
-            'left': '60px'
-        };
-        if (selectSchool) {
-            styles['background-color'] = 'lightgray';
-        }
-        return styles;
     }
     render() {
         let schoolsTree = this.props.schoolsTree;
@@ -57,13 +54,23 @@ class SchoolSelectItem extends React.Component {
                 <div className={'sb-mt-schools-select-tree-circle'}>
                     <div className={'sb-mt-schools-select-tree-center'}><p className={'sb-sc-'+type}>{App.getStorage('build').getLang(type)}</p></div>
                     {
-                        (type === 'magic')? (<div className={'sb-mt-schools-select-tree-circle-school'} style={self.getStyleChaos((selectedSchool === 'Chaos'))} data-name={'Chaos'}  onClick={self.handleChange}>{App.getStorage('build').getLang('Chaos')}</div>) : ('')
+                        (type === 'magic')
+                            ? ( <div className={getSchoolClassName(selectedSchool, 'Chaos')} data-name={'Chaos'}  onClick={self.handleChange}>
+                                    <div className={'sb-mt-school-hover'}>
+                                        {App.getStorage('build').getLang('Chaos')}
+                                    </div>
+                                </div>)
+                            : ('')
                     }
                     {
                         _.map(schoolsTree[type], (school, key) => {
-                            let selected = selectedSchool === school;
-                            let styles = self.getStyle(schoolsTree[type], key, type, selected, school);
-                            return <div className={'sb-mt-schools-select-tree-circle-school'} style={styles} data-name={school}  onClick={self.handleChange}>{App.getStorage('build').getLang(school)}</div>;
+                            return (
+                                <div className={getSchoolClassName(selectedSchool, school)} style={getSchoolPosition(schoolsTree[type], key, type, school)} data-name={school}  onClick={self.handleChange}>
+                                    <div className={'sb-mt-school-hover'}>
+                                        {App.getStorage('build').getLang(school)}
+                                    </div>
+                                </div>
+                            );
                         })
                     }
                 </div>

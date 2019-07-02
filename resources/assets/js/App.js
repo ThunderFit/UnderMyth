@@ -1,17 +1,19 @@
 import _ from "underscore";
 import Services from './services/init';
+import MainController from './main';
 
 export default class App {
     constructor(props) {
         this.modules = {};
+        this.MainController = new MainController();
     }
     init() {
+        this.MainController.init();
         this.loadModules();
 
         _.each(this.modules, function (module, i) {
             module.init();
         });
-
     }
     push(name, module) {
         this.modules[name] = module;

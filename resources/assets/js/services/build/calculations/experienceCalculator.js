@@ -36,9 +36,8 @@ export default class ExperienceCalculator {
         let schools = App.getStorage('build').getStorageByName('Schools').getAll();
         let totalExp = 0;
         let self = this;
-
         _.each((schools||{}), function (school, schoolName) {
-            totalExp = totalExp + self.getBySchool(school['name'], false);
+            totalExp = totalExp + self.getBySchool(schoolName, false);
         });
         return this.format(totalExp);
     }

@@ -11,10 +11,13 @@
 .sb-mt-schools-select {float: left;padding: 10px 10px 10px 10px;width: 200px;min-height: 1000px;}
 .sb-mt-schools-select-tree {width: 100%;float: left;margin-left: 50px;padding-top: 10px;}
 .sb-mt-schools-select-tree-container {width: 33%;height: 250px;float: left;}
-.sb-mt-schools-select-tree-center {position: absolute;border: $base-services-border;border-radius: 114px;width: 180px;height: 180px;display: flex;justify-content: center;align-items: center;margin-top: 20px;}
+.sb-mt-schools-select-tree-center {position: absolute;border: $base-services-border;border-radius: 114px;width: 180px;height: 180px;display: flex;justify-content: center;align-items: center;margin-top: 30px;}
 .sb-mt-schools-select-tree-circle {position: absolute;}
-.sb-mt-schools-select-tree-circle-school {background: white;border: $base-services-border;border-radius: 30px;padding: 5px;width: 60px;text-align: center;font-size: 10px;font-weight: 600;height: 60px;display: flex;justify-content: center;align-items: center;flex-direction: column;cursor: pointer;}
-
+.sb-mt-schools-select-tree-circle-school {background-position: center;background-size: contain;position: absolute; width: 60px;text-align: center;font-size: 10px;font-weight: 600;height: 60px;display: flex;justify-content: center;align-items: center;flex-direction: column;cursor: pointer;}
+.sb-mt-schools-select-tree-circle-school-chaos {top: 90px; left: 60px;background: url('/images/icons/Chaos.png') center center / contain;}
+.sb-mt-schools-select-tree-circle-school.sb-selected {background-color: lightgray;}
+.sb-mt-school-hover {position: absolute;background: white;border: 1px solid;z-index: 100;display: none;top: -50%;padding: 2px;border-radius: 5px;}
+.sb-mt-schools-select-tree-circle-school:hover .sb-mt-school-hover {display: block;}
 //sb-im info main
 .sb-im-exp {}
 .sb-im-title {font-size: 30px;border-bottom: 1px solid;padding: 5px;}
