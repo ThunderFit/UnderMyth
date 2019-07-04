@@ -8,6 +8,14 @@ function setSkillLvl(skill, lvl) {
     }
 }
 
+function setStartSkillLvl(skill, lvl) {
+    return {
+        type: types.SET_START_SKILL_LVL,
+        skill: skill,
+        lvl: lvl,
+    }
+}
+
 function setSchoollSkillsLvl(schoolName, lvl) {
     return {
         type: types.SET_SCHOOL_LVL,
@@ -29,4 +37,4 @@ function resetAll() {
     }
 }
 
-export { setSkillLvl, setSchoollSkillsLvl, setAllSchoollSkillsLvl, resetAll };
+export { setSkillLvl, setStartSkillLvl, setSchoollSkillsLvl, setAllSchoollSkillsLvl, resetAll };

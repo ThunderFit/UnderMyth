@@ -8,6 +8,7 @@ import SkillTreeComponent from '../../components/tree/skillTree';
 const MapToState = (state, context) => {
     let compState = App.makeNewState(state, {});
     compState['skillExperience'] = !_.isUndefined(state.skills[context.skillTree.id]) ? state.skills[context.skillTree.id].exp : 0;
+    compState['skillInfoState'] = !_.isUndefined(state.skills[context.skillTree.id]) ? state.skills[context.skillTree.id] : {};
     return compState;
 };
 

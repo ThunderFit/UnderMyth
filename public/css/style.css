@@ -195,6 +195,13 @@
   border-top-right-radius: 15px;
   border-bottom: 0px; }
 
+.sb-bs-start {
+  border-radius: initial;
+  border: 1px solid; }
+
+.sb-bs-diff-lvl {
+  padding-left: 60px; }
+
 .sb-bs .sb-bs-input {
   width: 30px;
   border: none;
@@ -233,11 +240,9 @@
   height: 200px;
   z-index: 100;
   display: none;
-  left: 50%;
-  top: 50%; }
-
-.sb-si-container:hover .sb-si-hover {
-  display: block; }
+  top: -194px;
+  border-radius: 15px;
+  border-bottom-left-radius: inherit; }
 
 .sb-si-left {
   width: calc(50% - 40px);
@@ -248,6 +253,13 @@
   width: 80px;
   float: left;
   height: 105px; }
+
+.sb-si-center:hover .sb-si-hover {
+  display: block; }
+
+.sb-si-center:hover .sb-bs {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit; }
 
 .sb-si-right {
   width: calc(50% - 40px);

@@ -5,6 +5,7 @@ import TopLine from "./lines/top"
 import BottomLine from "./lines/bottom"
 import SkillTreeContainer from '../../containers/tree/skillTree';
 import TopButtonsSkills from "../../containers/tree/buttons/skill";
+import StartButtonsSkills from "../../containers/tree/buttons/startSkill";
 
 class SkillTree extends React.Component {
     constructor(props) {
@@ -27,10 +28,17 @@ class SkillTree extends React.Component {
                             <div className={'sb-bs-plug'}> </div>
                         ) }
                         { (isPlug) ? (
-                            <div className={'sb-si-container'}>
-                                <div className={'sb-si-name'}>{this.props.skillInfo.name}</div>
-                                <div className={'sb-si-factor'}>x{this.props.skillInfo.factor}</div>
-                                <div className={'sb-si-hover'}>Skill Exp: {this.props.skillExperience}</div>
+                            <div>
+                                <div className={'sb-si-container'}>
+                                    <div className={'sb-si-name'}>{this.props.skillInfo.name}</div>
+                                    <div className={'sb-si-factor'}>x{this.props.skillInfo.factor}</div>
+                                </div>
+                                <div className={'sb-si-hover'}>
+                                    <div>Всего опыта: {this.props.skillExperience}</div>
+                                    <div>От стартового: {this.props.skillInfoState.diffExp||0}</div>
+                                    <div> </div>
+                                    <StartButtonsSkills skillId={this.props.skillTree.id} skills={this.props.skills}/>
+                                </div>
                             </div>
                         ) : (<div className={'sb-si-container-plug'}> </div>) }
                     </div>
