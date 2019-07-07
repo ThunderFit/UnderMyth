@@ -14,7 +14,7 @@ return [
     */
 
     'defaults' => [
-        'guard' => 'AuthMe',
+        'guard' => 'web',
         'passwords' => 'users',
     ],
 

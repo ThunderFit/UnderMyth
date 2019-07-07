@@ -67,6 +67,10 @@ export function skills(state = initialState, action) {
         case types.RESET_ALL:
             newState = {};
             break;
+        case types.SET_STATE:
+            if (typeof action.state !== 'undefined' && action.state !== null && typeof action.state.skills !== 'undefined') {
+                return makeNewState(state, action.state.skills);
+            }
         default:
             break;
     }

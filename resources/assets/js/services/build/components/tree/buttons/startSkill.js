@@ -34,14 +34,12 @@ class StartButtonsSkills extends React.Component {
     }
     render() {
         return (
-            <div>Стартовый уровень
-                <div className="sb-bs-diff-lvl">
-                    <div className="sb-bs sb-bs-start">
-                        <span className='sb-bs-minus' onClick={this.handleDown}>-</span>
-                        <input className='sb-bs-input' id={this.inputContainerId} type="text" maxlength="3" onChange={this.handleChange} value={this.props.skillLvl}/>
-                        <span className='sb-bs-after-input'>lvl</span>
-                        <span className='sb-bs-plus' onClick={this.handleUp}>+</span>
-                    </div>
+            <div className="sb-bs-diff-lvl">
+                <div className="sb-bs sb-bs-start">
+                    <span className='sb-bs-minus' onClick={this.handleDown}>-</span>
+                    <input className='sb-bs-input' id={this.inputContainerId} type="text" maxlength="3" onChange={this.handleChange} value={this.props.skillLvl}/>
+                    <span className='sb-bs-after-input'>lvl</span>
+                    <span className='sb-bs-plus' onClick={this.handleUp}>+</span>
                 </div>
             </div>
         );

@@ -16,7 +16,11 @@ const MapToProps = (dispatch, props) => {
     let groupStyle = props.skillTree.groupStyle || {};
     let childCount = props.childCount || 1;
     let skillInfo = App.getStorage('build').getSkill(props.skillTree.id) || {};
+
     if (skillInfo.name) {
+        if (!skillInfo.code) {
+            skillInfo.code = skillInfo.name;
+        }
         skillInfo.name = App.getStorage('build').getLang(skillInfo.name) || skillInfo.name;
     }
     return {

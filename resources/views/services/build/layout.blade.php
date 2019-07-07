@@ -7,7 +7,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">Билд (тестовый период)</div>
                     <div class="panel-body">
-                        <div id="service-build"></div>
+                        @yield('service-content')
                     </div>
                 </div>
             </div>

@@ -6,6 +6,7 @@ import BuildStore from './store/buildStore'
 import BuildContainer from './containers/main';
 import BuildStorage from './storage/init';
 import ExperienceCalculator from './calculations/experienceCalculator';
+import DataStorage from './adapter/DataStorage';
 
 export default class BuildService {
     constructor() {
@@ -17,6 +18,7 @@ export default class BuildService {
     }
     init() {
         if (this.active) {
+            this.dataStorage = new DataStorage();
             this.store = BuildStore({school: {selectedSchool: 'Blades'}});
             this.storage = new BuildStorage();
             this.calculator = new ExperienceCalculator();

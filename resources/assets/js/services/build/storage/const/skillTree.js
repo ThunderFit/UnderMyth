@@ -627,7 +627,7 @@ const skillTree = {
         },
     },
     'Fire': {
-        'id': '72',
+        'id': '62',
         'child': {
             0: {
                 'id': '63',
@@ -809,8 +809,8 @@ const skillTree = {
                                 'child': {},
                                 'style': {
                                     'left': '-100%',
-                                    'border-top': '1px solid',
-                                    'top': '-1px',
+                                    'border-top': '0.2em solid',
+                                    'top': '-3px',
                                 }
                             }
                         },
@@ -926,8 +926,8 @@ const skillTree = {
                                         'child': {},
                                         'style': {
                                             'left': '50%',
-                                            'border-top': '1px solid',
-                                            'top': '-1px',
+                                            'border-top': '0.2em solid',
+                                            'top': '-3px',
                                         }
                                     }
                                 },
@@ -1166,11 +1166,11 @@ const skillTree = {
                         },
                     },
                     1: {
-                        'id': '2515',
+                        'id': '934',
                         'child': {},
                     },
                     2: {
-                        'id': '934',
+                        'id': '2515',
                         'child': {},
                     }
                 },

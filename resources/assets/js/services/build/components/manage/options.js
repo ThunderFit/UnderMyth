@@ -23,7 +23,7 @@ class ManageOptions extends React.Component {
         this.langEn = this.langEn.bind(this);
     }
     resetAll() {
-        let action = BuildSkill.resetAll();
+        let action = BuildActions.BuildSkill.resetAll();
         App.getStore('build').dispatch(action);
     }
     resetSchool() {

@@ -27,7 +27,7 @@
 .sb-mt-right {
   float: left;
   width: 928px;
-  border-left: 1px solid; }
+  border-left: 0.1em solid; }
 
 .sb-mt-schools-name {
   font-size: 24px;
@@ -35,7 +35,7 @@
 
 .sb-mt-schools-one {
   width: 50%;
-  border-left: 1px solid; }
+  border-left: 0.1em solid; }
 
 .sb-mt-schools-skills {
   width: 100%;
@@ -66,7 +66,7 @@
 
 .sb-mt-schools-select-tree-center {
   position: absolute;
-  border: 1px solid;
+  border: 0.2em solid;
   border-radius: 114px;
   width: 180px;
   height: 180px;
@@ -98,9 +98,6 @@
   left: 60px;
   background: url("/images/icons/Chaos.png") center center/contain; }
 
-.sb-mt-schools-select-tree-circle-school.sb-selected {
-  background-color: lightgray; }
-
 .sb-mt-school-hover {
   position: absolute;
   background: white;
@@ -116,7 +113,6 @@
 
 .sb-im-title {
   font-size: 30px;
-  border-bottom: 1px solid;
   padding: 5px; }
 
 .sb-im-exp-total {
@@ -131,6 +127,15 @@
 .sb-im-right {
   text-align: right; }
 
+.sb-im-store {
+  padding: 1em;
+  font-weight: 900; }
+
+.sb-im-store-btn {
+  border: 0.1em solid;
+  cursor: pointer;
+  margin: 0.2em; }
+
 .sb-st-main {
   width: 910px;
   float: left; }
@@ -138,7 +143,7 @@
 .sb-st-title {
   font-size: 30px;
   text-align: center;
-  border-bottom: 1px solid;
+  border-bottom: 0.1em solid;
   clear: both; }
 
 .sb-st-group {
@@ -153,8 +158,9 @@
   width: 100%; }
 
 .sb-st-child .sb-si-container {
+  cursor: pointer;
   position: relative;
-  border: 1px solid;
+  border: 0.2em solid;
   font-size: 10px;
   width: 80px;
   height: 80px;
@@ -162,9 +168,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px; }
+  flex-direction: column; }
 
 .sb-st-child .sb-si-container .sb-si-name {
   clear: both;
@@ -182,7 +186,7 @@
 
 .sb-bs {
   position: relative;
-  border: 1px solid;
+  border: 0.2em solid;
   font-size: 10px;
   width: 80px;
   height: 25px;
@@ -197,10 +201,7 @@
 
 .sb-bs-start {
   border-radius: initial;
-  border: 1px solid; }
-
-.sb-bs-diff-lvl {
-  padding-left: 60px; }
+  border: 0.2em solid; }
 
 .sb-bs .sb-bs-input {
   width: 30px;
@@ -219,7 +220,7 @@
   height: 105px;
   width: 50%;
   float: left;
-  border-left: 1px solid; }
+  border-left: 0.2em solid; }
 
 .sb-bs .sb-bs-plus,
 .sb-bs .sb-bs-minus {
@@ -232,34 +233,70 @@
   -khtml-user-select: none;
   -webkit-user-select: none; }
 
+.sb-bs-diff-lvl {
+  padding: 0px 10px 0px 10px; }
+
 .sb-si-hover {
   position: absolute;
   background: white;
-  border: 1px solid;
-  width: 200px;
-  height: 200px;
-  z-index: 100;
+  border: 0.1em solid;
+  width: 300px;
+  height: 300px;
+  z-index: 98;
   display: none;
-  top: -194px;
-  border-radius: 15px;
-  border-bottom-left-radius: inherit; }
+  top: -100px;
+  right: calc(50% - 150px); }
+
+.sb-si-hover-layout {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  right: 0px;
+  background: rgba(0, 0, 0, 0.4); }
+
+.sb-si-hover-block {
+  background: white;
+  border-radius: 15px; }
+
+.sb-si-hover-block .sb-si-hover-row {
+  margin-bottom: 5px;
+  float: left;
+  width: 100%; }
+
+.sb-si-hover-top-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 101;
+  padding: 10px; }
 
 .sb-si-left {
   width: calc(50% - 40px);
   float: left;
   height: 105px; }
 
+.sb-si-hover-buttons {
+  float: left;
+  width: 50%; }
+
+.sb-si-hover-buttons {
+  float: left;
+  width: 50%; }
+
+.sb-si-hover-buttons .sb-bs {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  border-bottom: 0.2em solid; }
+
+.sb-si-hover-buttons.sb-si-hover-buttons-left .sb-bs-start {
+  float: right; }
+
 .sb-si-center {
   width: 80px;
   float: left;
   height: 105px; }
-
-.sb-si-center:hover .sb-si-hover {
-  display: block; }
-
-.sb-si-center:hover .sb-bs {
-  border-top-left-radius: inherit;
-  border-top-right-radius: inherit; }
 
 .sb-si-right {
   width: calc(50% - 40px);
@@ -278,32 +315,32 @@
   float: left; }
 
 .sb-sl-b-top {
-  border-top: 1px solid; }
+  border-top: 0.2em solid; }
 
 .sb-sl-b-bottom {
-  border-bottom: 1px solid; }
+  border-bottom: 0.2em solid; }
 
 .sb-sl-b-left {
-  border-left: 1px solid; }
+  border-left: 0.2em solid; }
 
 .sb-sl-b-right {
-  border-right: 1px solid; }
+  border-right: 0.2em solid; }
 
 .sb-mo-main {
   float: left;
   width: 910px;
   height: 50px;
-  border-bottom: 1px solid;
+  border-bottom: 0.1em solid;
   font-size: 0.7em; }
 
 .sb-mo-main .sb-mo-input {
   width: 30px;
   border: none;
   text-align: center;
-  border-bottom: 1px solid; }
+  border-bottom: 0.1em solid; }
 
 .sb-mo-main .sb-mo-apply {
-  border: 1px solid;
+  border: 0.1em solid;
   border-radius: 15px;
   display: inline-block;
   vertical-align: middle;
@@ -311,7 +348,7 @@
   margin-right: 0.3em; }
 
 .sb-mo-main .sb-mo-clear {
-  border: 1px solid;
+  border: 0.1em solid;
   border-radius: 15px;
   display: inline-block;
   width: 100px;
@@ -319,14 +356,14 @@
   margin-right: 0.3em; }
 
 .sb-mo-main .sb-mo-lang {
-  border: 1px solid;
+  border: 0.1em solid;
   border-radius: 15px;
   display: inline-block;
   margin-left: 0.3em;
   margin-right: 0.3em; }
 
 .sb-mo-main .sb-mo-block-container {
-  border: 1px solid;
+  border: 0.1em solid;
   padding: 5px;
   border-radius: 15px;
   margin-left: 0.3em;

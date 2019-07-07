@@ -5,7 +5,11 @@ import { BuildSkill } from "../../../actions";
 class TopButtonsSkills extends React.Component {
     constructor(props) {
         super(props);
-        this.inputContainerId = 'input-skill-' + this.props.skillId;
+        let inputCode = 'input-skill';
+        if (this.props.inputCode) {
+            inputCode = this.props.inputCode;
+        }
+        this.inputContainerId = inputCode + '-' + this.props.skillId;
         this.initEvents();
     }
     initEvents() {

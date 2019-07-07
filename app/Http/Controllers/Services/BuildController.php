@@ -11,8 +11,13 @@ class BuildController extends Controllers\Controller
 
     }
 
-    public function get()
+    public function index()
     {
-        return view('services.build');
+        return view('services.build.index');
+    }
+
+    public function edit()
+    {
+        return view('services.build.edit');
     }
 }

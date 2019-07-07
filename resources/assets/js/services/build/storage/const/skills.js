@@ -100,7 +100,7 @@ const skills = {
                 'factor': 2
             },
             73: {
-                'name': 'Inner_Strenght',
+                'name': 'Inner_Strength',
                 'factor': 2
             },
             76: {
@@ -224,7 +224,7 @@ const skills = {
                 'factor': 1
             },
             129: {
-                'name': 'Ammo_Scavanger',
+                'name': 'Ammo_Scavenger',
                 'factor': 4
             },
             123: {
@@ -252,7 +252,7 @@ const skills = {
                 'factor': 1
             },
             130: {
-                'name': 'Draw_Strenght',
+                'name': 'Draw_Strength',
                 'factor': 4
             },
             2513: {
@@ -296,7 +296,7 @@ const skills = {
                 'factor': 1
             },
             140: {
-                'name': 'Stand_your_ground',
+                'name': 'Stand_Your_Ground',
                 'factor': 4
             },
             2514: {
@@ -348,7 +348,7 @@ const skills = {
                 'factor': 2
             },
             2501: {
-                'name': 'Air_Magic_Specialization',
+                'name': 'Air_Specialization',
                 'factor': 20
             },
             34: {
@@ -396,7 +396,7 @@ const skills = {
                 'factor': 6
             },
             2504: {
-                'name': 'Chaos_Magic_Specialization',
+                'name': 'Chaos_Specialization',
                 'factor': 20
             },
             450: {
@@ -444,7 +444,7 @@ const skills = {
                 'factor': 6
             },
             2505: {
-                'name': 'Death_Magic_Specialization',
+                'name': 'Death_Specialization',
                 'factor': 20
             },
             52: {
@@ -456,11 +456,11 @@ const skills = {
                 'factor': 2
             },
             53: {
-                'name': 'Obsidian_Arrow',
+                'name': 'Stone_Arrow',
                 'factor': 2
             },
             57: {
-                'name': 'Strengh_of_Earth',
+                'name': 'Strength_of_Earth',
                 'factor': 1
             },
             60: {
@@ -492,7 +492,7 @@ const skills = {
                 'factor': 2
             },
             2506: {
-                'name': 'Earth_Magic_Specialization',
+                'name': 'Earth_Specialization',
                 'factor': 20
             },
             62: {
@@ -520,7 +520,7 @@ const skills = {
                 'factor': 1
             },
             69: {
-                'name': 'Fire_Reach',
+                'name': 'Fire_Speed',
                 'factor': 4
             },
             70: {
@@ -536,7 +536,7 @@ const skills = {
                 'factor': 4
             },
             2507: {
-                'name': 'Fire_Magic_Specialization',
+                'name': 'Fire_Specialization',
                 'factor': 20
             },
             81: {
@@ -588,7 +588,7 @@ const skills = {
                 'factor': 2
             },
             2509: {
-                'name': 'Life_Magic_Specialization',
+                'name': 'Life_Specialization',
                 'factor': 20
             },
             102: {
@@ -644,7 +644,7 @@ const skills = {
                 'factor': 1
             },
             2511: {
-                'name': 'Lunar_Magic_Specialization',
+                'name': 'Lunar_Specialization',
                 'factor': 20
             },
             142: {
@@ -688,7 +688,7 @@ const skills = {
                 'factor': 1
             },
             2516: {
-                'name': 'Sun_Magic_Specialization',
+                'name': 'Sun_Specialization',
                 'factor': 20
             },
             161: {

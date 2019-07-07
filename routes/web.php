@@ -40,6 +40,7 @@ $this->post('/profile/email', 'Auth\ForgotPasswordController@sendResetLinkEmail'
 
 $this->group(array('prefix' => 'services'), function () use ($route) {
     $route->get('/', 'Services\ServicesController@get')->name('services');
-    $route->get('/build', 'Services\BuildController@get')->name('services.build');
+    $route->get('/build', 'Services\BuildController@index')->name('services.build.index');
+    $route->get('/build/edit', 'Services\BuildController@edit')->name('services.build.edit');
 });
 

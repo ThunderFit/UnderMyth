@@ -104,8 +104,8 @@ const lang = {
         'en': 'Body Slam',
         'ru': ''
     },
-    'Inner_Strenght': {
-        'en': 'Inner Strenght',
+    'Inner_Strength': {
+        'en': 'Inner Strength',
         'ru': ''
     },
     'Deflection': {
@@ -228,8 +228,8 @@ const lang = {
         'en': 'Disabling Shot',
         'ru': ''
     },
-    'Ammo_Scavanger': {
-        'en': 'Ammo Scavanger',
+    'Ammo_Scavenger': {
+        'en': 'Ammo Scavenger',
         'ru': ''
     },
     'Piercing_Shot': {
@@ -256,8 +256,8 @@ const lang = {
         'en': 'Multishot',
         'ru': ''
     },
-    'Draw_Strenht': {
-        'en': 'Draw Strenht',
+    'Draw_Strength': {
+        'en': 'Draw Strength',
         'ru': ''
     },
     'Ranged_Specialization': {
@@ -300,7 +300,7 @@ const lang = {
         'en': 'Testudo',
         'ru': ''
     },
-    'Stand_your_ground': {
+    'Stand_Your_Ground': {
         'en': 'Stand your ground',
         'ru': ''
     },
@@ -352,7 +352,7 @@ const lang = {
         'en': 'Summon Air Elemental',
         'ru': ''
     },
-    'Air_Magic_Specialization': {
+    'Air_Specialization': {
         'en': 'Air Magic Specialization',
         'ru': ''
     },
@@ -400,7 +400,7 @@ const lang = {
         'en': 'Control Daemon',
         'ru': ''
     },
-    'Chaos_Magic_Specialization': {
+    'Chaos_Specialization': {
         'en': 'Chaos Magic Specialization',
         'ru': ''
     },
@@ -448,7 +448,7 @@ const lang = {
         'en': 'Summon Lich',
         'ru': ''
     },
-    'Death_Magic_Specialization': {
+    'Death_Specialization': {
         'en': 'Death Magic Specialization',
         'ru': ''
     },
@@ -460,12 +460,12 @@ const lang = {
         'en': 'Root',
         'ru': ''
     },
-    'Obsidian_Arrow': {
-        'en': 'Obsidian Arrow',
+    'Stone_Arrow': {
+        'en': 'Stone Arrow',
         'ru': ''
     },
-    'Strenh_of_Earth': {
-        'en': 'Strenh of Earth',
+    'Strength_of_Earth': {
+        'en': 'Strength of Earth',
         'ru': ''
     },
     'Sympathy_of_Stone': {
@@ -496,7 +496,7 @@ const lang = {
         'en': 'Torpor',
         'ru': ''
     },
-    'Earth_Magic_Specialization': {
+    'Earth_Specialization': {
         'en': 'Earth Magic Specialization',
         'ru': ''
     },
@@ -524,8 +524,8 @@ const lang = {
         'en': 'Immolation',
         'ru': ''
     },
-    'Fire_Reach': {
-        'en': 'Fire Reach',
+    'Fire_Speed': {
+        'en': 'Fire Speed',
         'ru': ''
     },
     'Fire_Proof': {
@@ -540,7 +540,7 @@ const lang = {
         'en': 'Summon Fire Elemental',
         'ru': ''
     },
-    'Fire_Magic_Specialization': {
+    'Fire_Specialization': {
         'en': 'Fire Magic Specialization',
         'ru': ''
     },
@@ -592,7 +592,7 @@ const lang = {
         'en': 'Healing Blast',
         'ru': ''
     },
-    'Life_Magic_Specialization': {
+    'Life_Specialization': {
         'en': 'Life Magic Specialization',
         'ru': ''
     },
@@ -648,7 +648,7 @@ const lang = {
         'en': 'Summon Whisp',
         'ru': ''
     },
-    'Lunar_Magic_Specialization': {
+    'Lunar_Specialization': {
         'en': 'Lunar Magic Specialization',
         'ru': ''
     },
@@ -692,7 +692,7 @@ const lang = {
         'en': 'Elysian Illumination',
         'ru': ''
     },
-    'Sun_Magic_Specialization': {
+    'Sun_Specialization': {
         'en': 'Sun Magic Specialization',
         'ru': ''
     },
@@ -800,8 +800,8 @@ const lang = {
         'en': 'Defensive Stance',
         'ru': ''
     },
-    'Train_Strenth': {
-        'en': 'Train Strenth',
+    'Train_Strength': {
+        'en': 'Train Strength',
         'ru': ''
     },
     'Parry': {

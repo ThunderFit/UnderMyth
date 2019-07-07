@@ -8,3 +8,5 @@ export const RESET_ALL = 'RESET_ALL';
 export const SET_SCHOOL = 'SET_SCHOOL';
 /* lang */
 export const SET_LANG = 'SET_LANG';
+/* data */
+export const SET_STATE = 'SET_STATE';
