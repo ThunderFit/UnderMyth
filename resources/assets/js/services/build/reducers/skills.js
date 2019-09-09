@@ -121,8 +121,12 @@ export function skills(state = initialState, action) {
             newState = initialState;
             break;
         case types.SET_STATE:
-            if (typeof action.state !== 'undefined' && action.state !== null && typeof action.state.skills !== 'undefined') {
-                return makeNewState(state, {skills: action.state.skills});
+            if (
+                typeof action.state !== 'undefined'
+                && action.state !== null
+                && typeof action.state.skills !== 'undefined'
+            ) {
+                return makeNewState(state, action.state.skills);
             }
         default:
             break;
