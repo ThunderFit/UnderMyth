@@ -12,7 +12,8 @@ const schools = {
             18: {},
             19: {},
             2502: {},
-        }
+        },
+        'magic': false
     },
     'Bludgeon': {
         'skills': {
@@ -28,7 +29,8 @@ const schools = {
             28: {},
             29: {},
             2503: {},
-        }
+        },
+        'magic': false
     },
     'Heavy_Armor': {
         'skills': {
@@ -43,7 +45,8 @@ const schools = {
             79: {},
             2541: {},
             2508: {}
-        }
+        },
+        'magic': false
     },
     'Light_Armor': {
         'skills': {
@@ -55,7 +58,8 @@ const schools = {
             97: {},
             99: {},
             2510: {}
-        }
+        },
+        'magic': false
     },
     'Polearms': {
         'skills': {
@@ -70,7 +74,8 @@ const schools = {
             118: {},
             3323: {},
             2512: {},
-        }
+        },
+        'magic': false
     },
     'Ranged': {
         'skills': {
@@ -86,7 +91,8 @@ const schools = {
             125: {},
             130: {},
             2513: {},
-        }
+        },
+        'magic': false
     },
     'Shields': {
         'skills': {
@@ -101,7 +107,8 @@ const schools = {
             136: {},
             140: {},
             2514: {},
-        }
+        },
+        'magic': false
     },
     'Air': {
         'skills': {
@@ -117,7 +124,8 @@ const schools = {
             3: {},
             4: {},
             2501: {},
-        }
+        },
+        'magic': true
     },
     'Chaos': {
         'skills': {
@@ -133,7 +141,8 @@ const schools = {
             3303: {},
             38: {},
             2504: {},
-        }
+        },
+        'magic': true
     },
     'Death': {
         'skills': {
@@ -149,7 +158,8 @@ const schools = {
             45: {},
             47: {},
             2505: {},
-        }
+        },
+        'magic': true
     },
     'Earth': {
         'skills': {
@@ -165,7 +175,8 @@ const schools = {
             56: {},
             1353: {},
             2506: {},
-        }
+        },
+        'magic': true
     },
     'Fire': {
         'skills': {
@@ -180,7 +191,8 @@ const schools = {
             66: {},
             67: {},
             2507: {},
-        }
+        },
+        'magic': true
     },
     'Life': {
         'skills': {
@@ -197,7 +209,8 @@ const schools = {
             88: {},
             3155: {},
             2509: {},
-        }
+        },
+        'magic': true
     },
     'Moon': {
         'skills': {
@@ -215,7 +228,8 @@ const schools = {
             359: {},
             108: {},
             2511: {},
-        }
+        },
+        'magic': true
     },
     'Sun': {
         'skills': {
@@ -230,7 +244,8 @@ const schools = {
             148: {},
             1352: {},
             2516: {},
-        }
+        },
+        'magic': true
     },
     'Water': {
         'skills': {
@@ -245,7 +260,8 @@ const schools = {
             166: {},
             168: {},
             2518: {},
-        }
+        },
+        'magic': true
     },
     'Focus': {
         'skills': {
@@ -260,7 +276,8 @@ const schools = {
             183: {},
             175: {},
             2519: {},
-        }
+        },
+        'magic': false
     },
     'Tactics': {
         'skills': {
@@ -279,7 +296,8 @@ const schools = {
             157: {},
             160: {},
             2517: {},
-        }
+        },
+        'magic': false
     },
     'Subterfuge': {
         'skills': {
@@ -300,7 +318,8 @@ const schools = {
             2557: {},
             1359: {},
             2515: {},
-        }
+        },
+        'magic': false
     },
     'Taming': {
         'skills': {
@@ -314,7 +333,8 @@ const schools = {
             435: {},
             436: {},
             2520: {},
-        }
+        },
+        'magic': false
     },
 };
 

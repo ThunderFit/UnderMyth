@@ -75,7 +75,7 @@ class ManageOptions extends React.Component {
                 </div>
                 <div className={"sb-mo-block-container floatleft"}>
                     {App.getStorage('build').getLang('clear')}
-                    <button className="sb-mo-clear" onClick={this.resetAll}>{App.getStorage('build').getLang('all')}</button>
+                    <button className="sb-mo-clear" onClick={this.resetAll}>{App.getStorage('build').getLang('all_schools')}</button>
                     <button className="sb-mo-clear" onClick={this.resetSchool}>{App.getStorage('build').getLang(this.props.school.selectedSchool)}</button>
                 </div>
                 <div className={"sb-mo-block-container floatright"}>

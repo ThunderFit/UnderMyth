@@ -1,950 +1,950 @@
 const skills = {
             470: {
-                'name': 'Bladed_Combat',
+                'code': 'Bladed_Combat',
                 'factor': 1
             },
             10: {
-                'name': 'Thrust',
+                'code': 'Thrust',
                 'factor': 1
             },
             14: {
-                'name': 'Riposte',
+                'code': 'Riposte',
                 'factor': 1
             },
             16: {
-                'name': 'Blade_Speed',
+                'code': 'Blade_Speed',
                 'factor': 4
             },
             12: {
-                'name': 'Double_Slash',
+                'code': 'Double_Slash',
                 'factor': 1
             },
             15: {
-                'name': 'Rend',
+                'code': 'Rend',
                 'factor': 1
             },
             13: {
-                'name': 'Vital_Points',
+                'code': 'Vital_Points',
                 'factor': 1
             },
             17: {
-                'name': 'Blade_Mastery',
+                'code': 'Blade_Mastery',
                 'factor': 4
             },
             18: {
-                'name': 'Whirlwind_Blades',
+                'code': 'Whirlwind_Blades',
                 'factor': 2
             },
             19: {
-                'name': 'Coup_de_Grace',
+                'code': 'Coup_de_Grace',
                 'factor': 2
             },
             2502: {
-                'name': 'Blade_Specialization',
+                'code': 'Blade_Specialization',
                 'factor': 20
             },
             471: {
-                'name': 'Bludgeon_Combat',
+                'code': 'Bludgeon_Combat',
                 'factor': 1
             },
             20: {
-                'name': 'Crushing_Blow',
+                'code': 'Crushing_Blow',
                 'factor': 1
             },
             21: {
-                'name': 'Break_Weapon',
+                'code': 'Break_Weapon',
                 'factor': 1
             },
             23: {
-                'name': 'Stunner',
+                'code': 'Stunner',
                 'factor': 4
             },
             22: {
-                'name': 'Knockback',
+                'code': 'Knockback',
                 'factor': 2
             },
             25: {
-                'name': 'Knockdown',
+                'code': 'Knockdown',
                 'factor': 2
             },
             24: {
-                'name': 'Break_Armor',
+                'code': 'Break_Armor',
                 'factor': 1
             },
             26: {
-                'name': 'Crusher',
+                'code': 'Crusher',
                 'factor': 4
             },
             27: {
-                'name': 'Breaker',
+                'code': 'Breaker',
                 'factor': 4
             },
             28: {
-                'name': 'Berserk',
+                'code': 'Berserk',
                 'factor': 1
             },
             29: {
-                'name': 'Ground_Pound',
+                'code': 'Ground_Pound',
                 'factor': 1
             },
             2503: {
-                'name': 'Bludgeon_Specialization',
+                'code': 'Bludgeon_Specialization',
                 'factor': 20
             },
             72: {
-                'name': 'Glancing_Blow',
+                'code': 'Glancing_Blow',
                 'factor': 1
             },
             75: {
-                'name': 'Body_Slam',
+                'code': 'Body_Slam',
                 'factor': 2
             },
             73: {
-                'name': 'Inner_Strength',
+                'code': 'Inner_Strength',
                 'factor': 2
             },
             76: {
-                'name': 'Deflection',
+                'code': 'Deflection',
                 'factor': 1
             },
             74: {
-                'name': 'Absorb_Impacts',
+                'code': 'Absorb_Impacts',
                 'factor': 1
             },
             80: {
-                'name': 'Taunt',
+                'code': 'Taunt',
                 'factor': 1
             },
             77: {
-                'name': 'Hard_Headed',
+                'code': 'Hard_Headed',
                 'factor': 4
             },
             78: {
-                'name': 'Endurance',
+                'code': 'Endurance',
                 'factor': 4
             },
             79: {
-                'name': 'Knights_Grace',
+                'code': 'Knights_Grace',
                 'factor': 3
             },
             2541: {
-                'name': 'Valiant_Warden',
+                'code': 'Valiant_Warden',
                 'factor': 3
             },
             2508: {
-                'name': 'Heavy_Armor_Specialization',
+                'code': 'Heavy_Armor_Specialization',
                 'factor': 20
             },
             91: {
-                'name': 'Dodge',
+                'code': 'Dodge',
                 'factor': 1
             },
             93: {
-                'name': 'Escape',
+                'code': 'Escape',
                 'factor': 1
             },
             92: {
-                'name': 'Evasion',
+                'code': 'Evasion',
                 'factor': 1
             },
             95: {
-                'name': 'Swiftness',
+                'code': 'Swiftness',
                 'factor': 4
             },
             96: {
-                'name': 'Flurry',
+                'code': 'Flurry',
                 'factor': 1
             },
             97: {
-                'name': 'Sprint',
+                'code': 'Sprint',
                 'factor': 1
             },
             99: {
-                'name': 'Acrobatics',
+                'code': 'Acrobatics',
                 'factor': 1
             },
             2510: {
-                'name': 'Light_Armor_Specialization',
+                'code': 'Light_Armor_Specialization',
                 'factor': 20
             },
             472: {
-                'name': 'Polearm_Combat',
+                'code': 'Polearm_Combat',
                 'factor': 1
             },
             111: {
-                'name': 'Push',
+                'code': 'Push',
                 'factor': 1
             },
             113: {
-                'name': 'Puncture',
+                'code': 'Puncture',
                 'factor': 1
             },
             114: {
-                'name': 'Reach',
+                'code': 'Reach',
                 'factor': 4
             },
             115: {
-                'name': 'Pull',
+                'code': 'Pull',
                 'factor': 1
             },
             116: {
-                'name': 'Spinning_Attack',
+                'code': 'Spinning_Attack',
                 'factor': 1
             },
             120: {
-                'name': 'Defensive_Positions',
+                'code': 'Defensive_Positions',
                 'factor': 4
             },
             117: {
-                'name': 'Leg_Sweep',
+                'code': 'Leg_Sweep',
                 'factor': 1
             },
             118: {
-                'name': 'Skewer',
+                'code': 'Skewer',
                 'factor': 1
             },
             3323: {
-                'name': 'Bec_de_Faucon',
+                'code': 'Bec_de_Faucon',
                 'factor': 4
             },
             2512: {
-                'name': 'Polearm_Specialization',
+                'code': 'Polearm_Specialization',
                 'factor': 20
             },
             473: {
-                'name': 'Ranged_Combat',
+                'code': 'Ranged_Combat',
                 'factor': 1
             },
             121: {
-                'name': 'Aimed_Shot',
+                'code': 'Aimed_Shot',
                 'factor': 1
             },
             122: {
-                'name': 'Disabling_Shot',
+                'code': 'Disabling_Shot',
                 'factor': 1
             },
             129: {
-                'name': 'Ammo_Scavenger',
+                'code': 'Ammo_Scavenger',
                 'factor': 4
             },
             123: {
-                'name': 'Piercing_Shot',
+                'code': 'Piercing_Shot',
                 'factor': 1
             },
             124: {
-                'name': 'Blinding_Shot',
+                'code': 'Blinding_Shot',
                 'factor': 1
             },
             127: {
-                'name': 'Eagle_Eye',
+                'code': 'Eagle_Eye',
                 'factor': 4
             },
             126: {
-                'name': 'Rapid_Fire',
+                'code': 'Rapid_Fire',
                 'factor': 1
             },
             128: {
-                'name': 'Range',
+                'code': 'Range',
                 'factor': 4
             },
             125: {
-                'name': 'Multishot',
+                'code': 'Multishot',
                 'factor': 1
             },
             130: {
-                'name': 'Draw_Strength',
+                'code': 'Draw_Strength',
                 'factor': 4
             },
             2513: {
-                'name': 'Ranged_Specialization',
+                'code': 'Ranged_Specialization',
                 'factor': 20
             },
             131: {
-                'name': 'Deflect',
+                'code': 'Deflect',
                 'factor': 1
             },
             133: {
-                'name': 'Bolster_Balance',
+                'code': 'Bolster_Balance',
                 'factor': 1
             },
             137: {
-                'name': 'Angles',
+                'code': 'Angles',
                 'factor': 4
             },
             132: {
-                'name': 'Shield_Bash',
+                'code': 'Shield_Bash',
                 'factor': 1
             },
             134: {
-                'name': 'Dig_In',
+                'code': 'Dig_In',
                 'factor': 1
             },
             138: {
-                'name': 'Redirection',
+                'code': 'Redirection',
                 'factor': 4
             },
             139: {
-                'name': 'Shield_Preservation',
+                'code': 'Shield_Preservation',
                 'factor': 4
             },
             135: {
-                'name': 'Charge',
+                'code': 'Charge',
                 'factor': 1
             },
             136: {
-                'name': 'Testudo',
+                'code': 'Testudo',
                 'factor': 1
             },
             140: {
-                'name': 'Stand_Your_Ground',
+                'code': 'Stand_Your_Ground',
                 'factor': 4
             },
             2514: {
-                'name': 'Shield_Specialization',
+                'code': 'Shield_Specialization',
                 'factor': 20
             },
             6: {
-                'name': 'Dash',
+                'code': 'Dash',
                 'factor': 1
             },
             1: {
-                'name': 'Gust',
+                'code': 'Gust',
                 'factor': 0.5
             },
             5: {
-                'name': 'Airs_Embrace',
+                'code': 'Airs_Embrace',
                 'factor': 1
             },
             221: {
-                'name': 'Discharge',
+                'code': 'Discharge',
                 'factor': 1
             },
             8: {
-                'name': 'Rapid_Discharge',
+                'code': 'Rapid_Discharge',
                 'factor': 2
             },
             2: {
-                'name': 'Lightning',
+                'code': 'Lightning',
                 'factor': 1
             },
             515: {
-                'name': 'Shield_of_Air',
+                'code': 'Shield_of_Air',
                 'factor': 1
             },
             7: {
-                'name': 'Blink',
+                'code': 'Blink',
                 'factor': 1
             },
             9: {
-                'name': 'Well_Grounded',
+                'code': 'Well_Grounded',
                 'factor': 2
             },
             3: {
-                'name': 'Chain_Lightning',
+                'code': 'Chain_Lightning',
                 'factor': 2
             },
             4: {
-                'name': 'Summon_Air_Elemental',
+                'code': 'Summon_Air_Elemental',
                 'factor': 2
             },
             2501: {
-                'name': 'Air_Specialization',
+                'code': 'Air_Specialization',
                 'factor': 20
             },
             34: {
-                'name': 'Confusion',
+                'code': 'Confusion',
                 'factor': 2
             },
             30: {
-                'name': 'Chaos_Bolt',
+                'code': 'Chaos_Bolt',
                 'factor': 1
             },
             420: {
-                'name': 'Juxtapose',
+                'code': 'Juxtapose',
                 'factor': 4
             },
             35: {
-                'name': 'Chaotic_Clone',
+                'code': 'Chaotic_Clone',
                 'factor': 2
             },
             524: {
-                'name': 'Torpid_Torment',
+                'code': 'Torpid_Torment',
                 'factor': 1
             },
             31: {
-                'name': 'Tabula_Rasa',
+                'code': 'Tabula_Rasa',
                 'factor': 2
             },
             497: {
-                'name': 'Chaotic_Step',
+                'code': 'Chaotic_Step',
                 'factor': 1
             },
             523: {
-                'name': 'Chaotic_Feedback',
+                'code': 'Chaotic_Feedback',
                 'factor': 1
             },
             37: {
-                'name': 'Summon_Daemon',
+                'code': 'Summon_Daemon',
                 'factor': 6
             },
             3303: {
-                'name': 'Chaotic_Shield',
+                'code': 'Chaotic_Shield',
                 'factor': 1
             },
             38: {
-                'name': 'Control_Daemon',
+                'code': 'Control_Daemon',
                 'factor': 6
             },
             2504: {
-                'name': 'Chaos_Specialization',
+                'code': 'Chaos_Specialization',
                 'factor': 20
             },
             450: {
-                'name': 'Tap_Soul',
+                'code': 'Tap_Soul',
                 'factor': 2
             },
             41: {
-                'name': 'Corpse_Explosion',
+                'code': 'Corpse_Explosion',
                 'factor': 1
             },
             43: {
-                'name': 'Death_Touch',
+                'code': 'Death_Touch',
                 'factor': 1
             },
             48: {
-                'name': 'Death_Mastery',
+                'code': 'Death_Mastery',
                 'factor': 4
             },
             46: {
-                'name': 'Summon_Skeleton',
+                'code': 'Summon_Skeleton',
                 'factor': 4
             },
             42: {
-                'name': 'Death_Ray',
+                'code': 'Death_Ray',
                 'factor': 2
             },
             49: {
-                'name': 'Undead_Mastery',
+                'code': 'Undead_Mastery',
                 'factor': 4
             },
             50: {
-                'name': 'Mummified_Undead',
+                'code': 'Mummified_Undead',
                 'factor': 4
             },
             44: {
-                'name': 'Death_Shield',
+                'code': 'Death_Shield',
                 'factor': 2
             },
             45: {
-                'name': 'Death_Field',
+                'code': 'Death_Field',
                 'factor': 2
             },
             47: {
-                'name': 'Summon_Lich',
+                'code': 'Summon_Lich',
                 'factor': 6
             },
             2505: {
-                'name': 'Death_Specialization',
+                'code': 'Death_Specialization',
                 'factor': 20
             },
             52: {
-                'name': 'Stone_Fist',
+                'code': 'Stone_Fist',
                 'factor': 1
             },
             51: {
-                'name': 'Root',
+                'code': 'Root',
                 'factor': 2
             },
             53: {
-                'name': 'Stone_Arrow',
+                'code': 'Stone_Arrow',
                 'factor': 2
             },
             57: {
-                'name': 'Strength_of_Earth',
+                'code': 'Strength_of_Earth',
                 'factor': 1
             },
             60: {
-                'name': 'Sympathy_of_Stone',
+                'code': 'Sympathy_of_Stone',
                 'factor': 4
             },
             314: {
-                'name': 'Shield_of_Crystal',
+                'code': 'Shield_of_Crystal',
                 'factor': 2
             },
             55: {
-                'name': 'Earthquake',
+                'code': 'Earthquake',
                 'factor': 3
             },
             58: {
-                'name': 'Earths_Embrace',
+                'code': 'Earths_Embrace',
                 'factor': 2
             },
             59: {
-                'name': 'Bulwark_of_Earth',
+                'code': 'Bulwark_of_Earth',
                 'factor': 4
             },
             56: {
-                'name': 'Summon_Earth_Elemental',
+                'code': 'Summon_Earth_Elemental',
                 'factor': 4
             },
             1353: {
-                'name': 'Torpor',
+                'code': 'Torpor',
                 'factor': 2
             },
             2506: {
-                'name': 'Earth_Specialization',
+                'code': 'Earth_Specialization',
                 'factor': 20
             },
             62: {
-                'name': 'Flame_Fist',
+                'code': 'Flame_Fist',
                 'factor': 1
             },
             63: {
-                'name': 'Fire_Arrow',
+                'code': 'Fire_Arrow',
                 'factor': 2
             },
             65: {
-                'name': 'Ignite_Weapon',
+                'code': 'Ignite_Weapon',
                 'factor': 1
             },
             68: {
-                'name': 'Highly_Flammable',
+                'code': 'Highly_Flammable',
                 'factor': 4
             },
             61: {
-                'name': 'Fireball',
+                'code': 'Fireball',
                 'factor': 3
             },
             64: {
-                'name': 'Immolation',
+                'code': 'Immolation',
                 'factor': 1
             },
             69: {
-                'name': 'Fire_Speed',
+                'code': 'Fire_Speed',
                 'factor': 4
             },
             70: {
-                'name': 'Fire_Proof',
+                'code': 'Fire_Proof',
                 'factor': 4
             },
             66: {
-                'name': 'Ring_of_Fire',
+                'code': 'Ring_of_Fire',
                 'factor': 2
             },
             67: {
-                'name': 'Summon_Fire_Elemental',
+                'code': 'Summon_Fire_Elemental',
                 'factor': 4
             },
             2507: {
-                'name': 'Fire_Specialization',
+                'code': 'Fire_Specialization',
                 'factor': 20
             },
             81: {
-                'name': 'Healing_Touch',
+                'code': 'Healing_Touch',
                 'factor': 1
             },
             82: {
-                'name': 'Healing_Ray',
+                'code': 'Healing_Ray',
                 'factor': 2
             },
             83: {
-                'name': 'Purify',
+                'code': 'Purify',
                 'factor': 1
             },
             777: {
-                'name': 'Beneficent_Blessing',
+                'code': 'Beneficent_Blessing',
                 'factor': 4
             },
             84: {
-                'name': 'Healing_Burst',
+                'code': 'Healing_Burst',
                 'factor': 3
             },
             85: {
-                'name': 'Purify_Burst',
+                'code': 'Purify_Burst',
                 'factor': 3
             },
             86: {
-                'name': 'Banish_Undead',
+                'code': 'Banish_Undead',
                 'factor': 2
             },
             89: {
-                'name': 'Life_Power',
+                'code': 'Life_Power',
                 'factor': 4
             },
             90: {
-                'name': 'Life_Reach',
+                'code': 'Life_Reach',
                 'factor': 4
             },
             87: {
-                'name': 'Healing_Grace',
+                'code': 'Healing_Grace',
                 'factor': 2
             },
             88: {
-                'name': 'Resurrection',
+                'code': 'Resurrection',
                 'factor': 4
             },
             3155: {
-                'name': 'Healing_Blast',
+                'code': 'Healing_Blast',
                 'factor': 2
             },
             2509: {
-                'name': 'Life_Specialization',
+                'code': 'Life_Specialization',
                 'factor': 20
             },
             102: {
-                'name': 'Night_Vision',
+                'code': 'Night_Vision',
                 'factor': 1
             },
             101: {
-                'name': 'Vanish',
+                'code': 'Vanish',
                 'factor': 1
             },
             103: {
-                'name': 'Celestial_Blessing',
+                'code': 'Celestial_Blessing',
                 'factor': 1
             },
             2811: {
-                'name': 'Fireflies',
+                'code': 'Fireflies',
                 'factor': 1
             },
             358: {
-                'name': 'Animal_Charm',
+                'code': 'Animal_Charm',
                 'factor': 1
             },
             109: {
-                'name': 'Moon_Worship',
+                'code': 'Moon_Worship',
                 'factor': 4
             },
             104: {
-                'name': 'Shadow_Form',
+                'code': 'Shadow_Form',
                 'factor': 1
             },
             1351: {
-                'name': 'Cocoon_of_Night',
+                'code': 'Cocoon_of_Night',
                 'factor': 1
             },
             2812: {
-                'name': 'Meteor_Shower',
+                'code': 'Meteor_Shower',
                 'factor': 1
             },
             312: {
-                'name': 'Moon_Beams',
+                'code': 'Moon_Beams',
                 'factor': 1
             },
             110: {
-                'name': 'Moon_Eater',
+                'code': 'Moon_Eater',
                 'factor': 4
             },
             359: {
-                'name': 'Night_Step',
+                'code': 'Night_Step',
                 'factor': 1
             },
             108: {
-                'name': 'Summon_Whisp',
+                'code': 'Summon_Whisp',
                 'factor': 1
             },
             2511: {
-                'name': 'Lunar_Specialization',
+                'code': 'Lunar_Specialization',
                 'factor': 20
             },
             142: {
-                'name': 'Light',
+                'code': 'Light',
                 'factor': 1
             },
             141: {
-                'name': 'Searing_Ray',
+                'code': 'Searing_Ray',
                 'factor': 1
             },
             143: {
-                'name': 'Enlightenment',
+                'code': 'Enlightenment',
                 'factor': 1
             },
             144: {
-                'name': 'Blind',
+                'code': 'Blind',
                 'factor': 1
             },
             149: {
-                'name': 'Sun_Worship',
+                'code': 'Sun_Worship',
                 'factor': 4
             },
             146: {
-                'name': 'Reveal_Hidden',
+                'code': 'Reveal_Hidden',
                 'factor': 1
             },
             313: {
-                'name': 'Dazzling_Rays',
+                'code': 'Dazzling_Rays',
                 'factor': 1
             },
             150: {
-                'name': 'Sun_Eater',
+                'code': 'Sun_Eater',
                 'factor': 4
             },
             148: {
-                'name': 'Summon_Phoenix',
+                'code': 'Summon_Phoenix',
                 'factor': 1
             },
             1352: {
-                'name': 'Elysian_Illumination',
+                'code': 'Elysian_Illumination',
                 'factor': 1
             },
             2516: {
-                'name': 'Sun_Specialization',
+                'code': 'Sun_Specialization',
                 'factor': 20
             },
             161: {
-                'name': 'Ice_Fist',
+                'code': 'Ice_Fist',
                 'factor': 1
             },
             165: {
-                'name': 'Ice_Arrow',
+                'code': 'Ice_Arrow',
                 'factor': 1
             },
             162: {
-                'name': 'Douse',
+                'code': 'Douse',
                 'factor': 1
             },
             169: {
-                'name': 'Icy_Breath',
+                'code': 'Icy_Breath',
                 'factor': 4
             },
             167: {
-                'name': 'Ice_Field',
+                'code': 'Ice_Field',
                 'factor': 1
             },
             163: {
-                'name': 'Soothing_Rain',
+                'code': 'Soothing_Rain',
                 'factor': 1
             },
             164: {
-                'name': 'Shield_of_Ice',
+                'code': 'Shield_of_Ice',
                 'factor': 1
             },
             170: {
-                'name': 'Blue_Blooded',
+                'code': 'Blue_Blooded',
                 'factor': 4
             },
             166: {
-                'name': 'Summon_Water_Elemental',
+                'code': 'Summon_Water_Elemental',
                 'factor': 1
             },
             168: {
-                'name': 'Summon_Ice_Elemental',
+                'code': 'Summon_Ice_Elemental',
                 'factor': 1
             },
             2518: {
-                'name': 'Water_Specialization',
+                'code': 'Water_Specialization',
                 'factor': 20
             },
             181: {
-                'name': 'Heightened_Awareness',
+                'code': 'Heightened_Awareness',
                 'factor': 5
             },
             172: {
-                'name': 'Mind_Wipe',
+                'code': 'Mind_Wipe',
                 'factor': 1
             },
             173: {
-                'name': 'Train_Intelligence',
+                'code': 'Train_Intelligence',
                 'factor': 10
             },
             180: {
-                'name': 'Quick_Swapping',
+                'code': 'Quick_Swapping',
                 'factor': 4
             },
             177: {
-                'name': 'Mind_Lock',
+                'code': 'Mind_Lock',
                 'factor': 1
             },
             1357: {
-                'name': 'Spellbinder_Stance',
+                'code': 'Spellbinder_Stance',
                 'factor': 1
             },
             182: {
-                'name': 'Inner_Calm',
+                'code': 'Inner_Calm',
                 'factor': 4
             },
             1360: {
-                'name': 'Aetheric_Feedback',
+                'code': 'Aetheric_Feedback',
                 'factor': 1
             },
             183: {
-                'name': 'Follow_Through',
+                'code': 'Follow_Through',
                 'factor': 4
             },
             175: {
-                'name': 'Tranquility',
+                'code': 'Tranquility',
                 'factor': 4
             },
             2519: {
-                'name': 'Focus_Specialization',
+                'code': 'Focus_Specialization',
                 'factor': 20
             },
             151: {
-                'name': 'Healthy',
+                'code': 'Healthy',
                 'factor': 5
             },
             155: {
-                'name': 'Armor_Preservation',
+                'code': 'Armor_Preservation',
                 'factor': 4
             },
             305: {
-                'name': 'Reckless_Stance',
+                'code': 'Reckless_Stance',
                 'factor': 1
             },
             71: {
-                'name': 'Defensive_Stance',
+                'code': 'Defensive_Stance',
                 'factor': 1
             },
             154: {
-                'name': 'Train_Strength',
+                'code': 'Train_Strength',
                 'factor': 10
             },
             11: {
-                'name': 'Parry',
+                'code': 'Parry',
                 'factor': 1
             },
             159: {
-                'name': 'Weapon_Preservation',
+                'code': 'Weapon_Preservation',
                 'factor': 4
             },
             306: {
-                'name': 'Berserkers_Stance',
+                'code': 'Berserkers_Stance',
                 'factor': 1
             },
             307: {
-                'name': 'Passive_Stance',
+                'code': 'Passive_Stance',
                 'factor': 1
             },
             156: {
-                'name': 'Heavy_Lifter',
+                'code': 'Heavy_Lifter',
                 'factor': 4
             },
             152: {
-                'name': 'Offhand_Attack',
+                'code': 'Offhand_Attack',
                 'factor': 1
             },
             1358: {
-                'name': 'Fortify_Defenses',
+                'code': 'Fortify_Defenses',
                 'factor': 1
             },
             157: {
-                'name': 'Offhand_Defense',
+                'code': 'Offhand_Defense',
                 'factor': 4
             },
             160: {
-                'name': 'Offhand_Power',
+                'code': 'Offhand_Power',
                 'factor': 4
             },
             2517: {
-                'name': 'Tactics_Specialization',
+                'code': 'Tactics_Specialization',
                 'factor': 20
             },
             522: {
-                'name': 'Distract',
+                'code': 'Distract',
                 'factor': 1
             },
             153: {
-                'name': 'Train_Dexterity',
+                'code': 'Train_Dexterity',
                 'factor': 10
             },
             521: {
-                'name': 'Engage_Opponent',
+                'code': 'Engage_Opponent',
                 'factor': 1
             },
             158: {
-                'name': 'Trip',
+                'code': 'Trip',
                 'factor': 1
             },
             94: {
-                'name': 'Camouflage',
+                'code': 'Camouflage',
                 'factor': 1
             },
             3231: {
-                'name': 'Pugilism',
+                'code': 'Pugilism',
                 'factor': 1
             },
             517: {
-                'name': 'Poison_Weapon',
+                'code': 'Poison_Weapon',
                 'factor': 2
             },
             98: {
-                'name': 'Silent_Movement',
+                'code': 'Silent_Movement',
                 'factor': 2
             },
             119: {
-                'name': 'Armor_Weak_Points',
+                'code': 'Armor_Weak_Points',
                 'factor': 4
             },
             934: {
-                'name': 'Safe_Fall',
+                'code': 'Safe_Fall',
                 'factor': 5
             },
             100: {
-                'name': 'Sneak_Attack',
+                'code': 'Sneak_Attack',
                 'factor': 2
             },
             516: {
-                'name': 'Sap',
+                'code': 'Sap',
                 'factor': 2
             },
             519: {
-                'name': 'Pick_Locks',
+                'code': 'Pick_Locks',
                 'factor': 2
             },
             518: {
-                'name': 'Pick_Pockets',
+                'code': 'Pick_Pockets',
                 'factor': 2
             },
             2557: {
-                'name': 'Backstab',
+                'code': 'Backstab',
                 'factor': 4
             },
             1359: {
-                'name': 'Opportunity_Strike',
+                'code': 'Opportunity_Strike',
                 'factor': 2
             },
             2515: {
-                'name': 'Subterfuge_Specialization',
+                'code': 'Subterfuge_Specialization',
                 'factor': 20
             },
             413: {
-                'name': 'Tame_Creature',
+                'code': 'Tame_Creature',
                 'factor': 1
             },
             437: {
-                'name': 'Summoning',
+                'code': 'Summoning',
                 'factor': 1
             },
             531: {
-                'name': 'Heal_Creature',
+                'code': 'Heal_Creature',
                 'factor': 1
             },
             432: {
-                'name': 'Obedience',
+                'code': 'Obedience',
                 'factor': 1
             },
             476: {
-                'name': 'Collar_Recovery',
+                'code': 'Collar_Recovery',
                 'factor': 1
             },
             530: {
-                'name': 'Resurrect_Creature',
+                'code': 'Resurrect_Creature',
                 'factor': 1
             },
             433: {
-                'name': 'Combat_Training',
+                'code': 'Combat_Training',
                 'factor': 1
             },
             435: {
-                'name': 'Concentration',
+                'code': 'Concentration',
                 'factor': 1
             },
             436: {
-                'name': 'Refresh',
+                'code': 'Refresh',
                 'factor': 1
             },
             2520: {
-                'name': 'Taming_Specialization',
+                'code': 'Taming_Specialization',
                 'factor': 20
             },
 };

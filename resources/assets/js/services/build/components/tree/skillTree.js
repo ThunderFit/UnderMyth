@@ -45,7 +45,7 @@ class SkillTree extends React.Component {
                             <div onClick={this.displayHover}>
                                 <div className={'sb-si-container'}>
                                     <div style={{'display':'none'}}>
-                                        <div className={'sb-si-name'}>{this.props.skillInfo.name}</div>
+                                        <div className={'sb-si-name'}>{App.getStorage('build').getLang(this.props.skillInfo.code)}</div>
                                         <div className={'sb-si-factor'}>x{this.props.skillInfo.factor}</div>
                                     </div>
                                     <img style={{'position': 'absolute'}} height={'76px'} width={'76px'} src={"/images/skills/" + this.props.skillInfo.code + "_icon.png"} alt={''} onError={(e)=>{

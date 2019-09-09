@@ -14,7 +14,7 @@ const MapToProps = (dispatch, props) => {
     return {
         actions: bindActionCreators(BuildSkill, dispatch),
         skillId: props.skillId,
-        skillLvl: !_.isUndefined(props.skills[props.skillId]) ? props.skills[props.skillId].startLvl : 0,
+        skillLvl: !_.isUndefined(props.skills.skills[props.skillId]) ? props.skills.skills[props.skillId].startLvl : 0,
     }
 };
 

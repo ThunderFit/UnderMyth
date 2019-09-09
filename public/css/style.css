@@ -93,6 +93,20 @@
   flex-direction: column;
   cursor: pointer; }
 
+.sb-mt-schools-harmony {
+  background: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 15px;
+  border: 1px solid;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
 .sb-mt-schools-select-tree-circle-school-chaos {
   top: 90px;
   left: 60px;

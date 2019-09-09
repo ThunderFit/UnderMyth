@@ -1,4 +1,5 @@
 import SchoolsStorage from './schools'
+import SkillSchoolsStorage from './skillSchools'
 import SchoolTreeStorage from './schoolTree'
 import SkillsStorage from './skills'
 import SkillTreeStorage from './skillTree'
@@ -12,6 +13,7 @@ export default class buildStorage {
         this.SchoolTree = new SchoolTreeStorage();
         this.Experience = new ExperienceStorage();
         this.Skills = new SkillsStorage();
+        this.SkillSchools = new SkillSchoolsStorage();
         this.Lang = new LangStorage();
     }
     getSchool(name) {

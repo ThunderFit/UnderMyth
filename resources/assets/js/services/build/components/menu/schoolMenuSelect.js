@@ -59,6 +59,7 @@ class SchoolSelectItem extends React.Component {
                                     <div className={'sb-mt-school-hover'}>
                                         {App.getStorage('build').getLang('Chaos')}
                                     </div>
+                                    <div className={'sb-mt-schools-harmony'}>{typeof self.props.skills.schools['Chaos'] !== 'undefined'  ? self.props.skills.schools['Chaos'].harmony : ''}</div>
                                 </div>)
                             : ('')
                     }
@@ -69,6 +70,15 @@ class SchoolSelectItem extends React.Component {
                                     <div className={'sb-mt-school-hover'}>
                                         {App.getStorage('build').getLang(school)}
                                     </div>
+                                    {
+                                        (type === 'magic')
+                                        ? (
+                                            <div className={'sb-mt-schools-harmony'}>
+                                                {typeof self.props.skills.schools[school] !== 'undefined' ? self.props.skills.schools[school].harmony : ''}
+                                            </div>
+                                            )
+                                        : ('')
+                                    }
                                 </div>
                             );
                         })

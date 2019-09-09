@@ -6,395 +6,395 @@ const lang = {
 
     'Bladed_Combat': {
         'en': 'Bladed Combat',
-        'ru': ''
+        'ru': 'Схватка с клинковым оружием'
     },
     'Thrust': {
         'en': 'Thrust',
-        'ru': ''
+        'ru': 'Выпад'
     },
     'Riposte': {
         'en': 'Riposte',
-        'ru': ''
+        'ru': 'Двойной удар'
     },
     'Blade_Speed': {
         'en': 'Blade Speed',
-        'ru': ''
+        'ru': 'Скорость клинкового оружия'
     },
     'Double_Slash': {
         'en': 'Double Slash',
-        'ru': ''
+        'ru': 'Ответная мера'
     },
     'Rend': {
         'en': 'Rend',
-        'ru': ''
+        'ru': 'Рваные раны'
     },
     'Vital_Points': {
         'en': 'Vital Points',
-        'ru': ''
+        'ru': 'Уязвимые места'
     },
     'Blade_Mastery': {
         'en': 'Blade Mastery',
-        'ru': ''
+        'ru': 'Мастерское владение клинками'
     },
     'Whirlwind_Blades': {
         'en': 'Whirlwind Blades',
-        'ru': ''
+        'ru': 'Танец клинеков'
     },
     'Coup_de_Grace': {
         'en': 'Coup de Grace',
-        'ru': ''
+        'ru': 'Удар милосердия'
     },
     'Blade_Specialization': {
         'en': 'Blade Specialization',
-        'ru': ''
+        'ru': 'Специалист по клинкам'
     },
     'Bludgeon_Combat': {
         'en': 'Bludgeon Combat',
-        'ru': ''
+        'ru': 'Схватка с дробящим оружием'
     },
     'Crushing_Blow': {
         'en': 'Crushing Blow',
-        'ru': ''
+        'ru': 'Сокрушающий удар'
     },
     'Break_Weapon': {
         'en': 'Break Weapon',
-        'ru': ''
+        'ru': 'Уничтожение оружия'
     },
     'Stunner': {
         'en': 'Stunner',
-        'ru': ''
+        'ru': 'Оглушение'
     },
     'Knockback': {
         'en': 'Knockback',
-        'ru': ''
+        'ru': 'Отбрасывание'
     },
     'Knockdown': {
         'en': 'Knockdown',
-        'ru': ''
+        'ru': 'Сбивание с ног'
     },
     'Break_Armor': {
         'en': 'Break Armor',
-        'ru': ''
+        'ru': 'Уничтожение доспехов'
     },
     'Crusher': {
         'en': 'Crusher',
-        'ru': ''
+        'ru': 'Дробитель'
     },
     'Breaker': {
         'en': 'Breaker',
-        'ru': ''
+        'ru': 'Раздробление'
     },
     'Berserk': {
         'en': 'Berserk',
-        'ru': ''
+        'ru': 'Берсерк'
     },
     'Ground Pound': {
         'en': 'Ground Pound',
-        'ru': ''
+        'ru': 'Сотрясение земли'
     },
     'Bludgeon_Specialization': {
         'en': 'Bludgeon Specialization',
-        'ru': ''
+        'ru': 'Специалист по дробящему оружию'
     },
     'Glancing_Blow': {
         'en': 'Glancing Blow',
-        'ru': ''
+        'ru': 'Скользящий удар'
     },
     'Body_Slam': {
         'en': 'Body Slam',
-        'ru': ''
+        'ru': 'Удар всем телом'
     },
     'Inner_Strength': {
         'en': 'Inner Strength',
-        'ru': ''
+        'ru': 'Внутренняя сила'
     },
     'Deflection': {
         'en': 'Deflection',
-        'ru': ''
+        'ru': 'Отражение'
     },
     'Absorb_Impacts': {
         'en': 'Absorb Impacts',
-        'ru': ''
+        'ru': 'Поглощение ударов'
     },
     'Taunt': {
         'en': 'Taunt',
-        'ru': ''
+        'ru': 'Насмешка'
     },
     'Hard_Headed': {
         'en': 'Hard Headed',
-        'ru': ''
+        'ru': 'Расчетливость'
     },
     'Endurance': {
         'en': 'Endurance',
-        'ru': ''
+        'ru': 'Стойкость'
     },
     'Knights_Grace': {
         'en': 'Knight\'s Grace',
-        'ru': ''
+        'ru': 'Рыцарское милосердие'
     },
     'Valiant_Warden': {
         'en': 'Valiant Warden',
-        'ru': ''
+        'ru': 'Храбрый защитник'
     },
     'Heavy_Armor_Specialization': {
         'en': 'Heavy Armor Specialization',
-        'ru': ''
+        'ru': 'Специалист по тяжелым доспехам'
     },
     'Dodge': {
         'en': 'Dodge',
-        'ru': ''
+        'ru': 'Уклонение'
     },
     'Escape': {
         'en': 'Escape',
-        'ru': ''
+        'ru': 'Escape'
     },
     'Evasion': {
         'en': 'Evasion',
-        'ru': ''
+        'ru': 'Избегание'
     },
     'Swiftness': {
         'en': 'Swiftness',
-        'ru': ''
+        'ru': 'Сноровка'
     },
     'Flurry': {
         'en': 'Flurry',
-        'ru': ''
+        'ru': 'Спешка'
     },
     'Sprint': {
         'en': 'Sprint',
-        'ru': ''
+        'ru': 'Рывок'
     },
     'Acrobatics': {
         'en': 'Acrobatics',
-        'ru': ''
+        'ru': 'Акробатика'
     },
     'Light_Armor_Specialization': {
         'en': 'Light Armor Specialization',
-        'ru': ''
+        'ru': 'Специалист по легким доспехам'
     },
     'Polearm_Combat': {
         'en': 'Polearm Combat',
-        'ru': ''
+        'ru': 'Схватка с древковым оружием'
     },
     'Push': {
         'en': 'Push',
-        'ru': ''
+        'ru': 'Толчок'
     },
     'Puncture': {
         'en': 'Puncture',
-        'ru': ''
+        'ru': 'Прокалывание'
     },
     'Reach': {
         'en': 'Reach',
-        'ru': ''
+        'ru': 'Досягаемость'
     },
     'Pull': {
         'en': 'Pull',
-        'ru': ''
+        'ru': 'Притягивание'
     },
     'Spinning_Attack': {
         'en': 'Spinning Attack',
-        'ru': ''
+        'ru': 'Круговая атака'
     },
     'Defensive_Positions': {
         'en': 'Defensive Positions',
-        'ru': ''
+        'ru': 'Оборонительная позиция'
     },
     'Leg_Sweep': {
         'en': 'Leg Sweep',
-        'ru': ''
+        'ru': 'Подсечка'
     },
     'Skewer': {
         'en': 'Skewer',
-        'ru': ''
+        'ru': 'Пронзание'
     },
     'Bec_de_Faucon': {
         'en': 'Bec de Faucon',
-        'ru': ''
+        'ru': 'Клевец'
     },
     'Polearm_Specialization': {
         'en': 'Polearm Specialization',
-        'ru': ''
+        'ru': 'Специалист по древковому оружию'
     },
     'Ranged_Combat': {
         'en': 'Ranged Combat',
-        'ru': ''
+        'ru': 'Схватка с оружием дальнего боя'
     },
     'Aimed_Shot': {
         'en': 'Aimed Shot',
-        'ru': ''
+        'ru': 'Прицельный выстрел'
     },
     'Disabling_Shot': {
         'en': 'Disabling Shot',
-        'ru': ''
+        'ru': 'Блокирующий выстрел'
     },
     'Ammo_Scavenger': {
         'en': 'Ammo Scavenger',
-        'ru': ''
+        'ru': 'Сборщик боеприпасов'
     },
     'Piercing_Shot': {
         'en': 'Piercing Shot',
-        'ru': ''
+        'ru': 'Проникающий выстрел'
     },
     'Blinding_Shot': {
         'en': 'Blinding Shot',
-        'ru': ''
+        'ru': 'Ослеплящий выстрел'
     },
     'Eagle_Eye': {
         'en': 'Eagle Eye',
-        'ru': ''
+        'ru': 'Соколиный глаз'
     },
     'Rapid_Fire': {
         'en': 'Rapid Fire',
-        'ru': ''
+        'ru': 'Беглый огонь'
     },
     'Range': {
         'en': 'Range',
-        'ru': ''
+        'ru': 'Дальний бой'
     },
     'Multishot': {
         'en': 'Multishot',
-        'ru': ''
+        'ru': 'Залп'
     },
     'Draw_Strength': {
         'en': 'Draw Strength',
-        'ru': ''
+        'ru': 'Источник силы'
     },
     'Ranged_Specialization': {
         'en': 'Ranged Specialization',
-        'ru': ''
+        'ru': 'Специалист по дальнему бою'
     },
     'Deflect': {
         'en': 'Deflect',
-        'ru': ''
+        'ru': 'Отбивание'
     },
     'Bolster_Balance': {
         'en': 'Bolster Balance',
-        'ru': ''
+        'ru': 'Усиление равновесия'
     },
     'Angles': {
         'en': 'Angles',
-        'ru': ''
+        'ru': 'Крепкий орешек'
     },
     'Shield_Bash': {
         'en': 'Shield Bash',
-        'ru': ''
+        'ru': 'Удар щитом'
     },
     'Dig_In': {
         'en': 'Dig In',
-        'ru': ''
+        'ru': 'Глухая оборона'
     },
     'Redirection': {
         'en': 'Redirection',
-        'ru': ''
+        'ru': 'Вскольз'
     },
     'Shield_Preservation': {
         'en': 'Shield Preservation',
-        'ru': ''
+        'ru': 'Сохранение щита'
     },
     'Charge': {
         'en': 'Charge',
-        'ru': ''
+        'ru': 'Натиск'
     },
     'Testudo': {
         'en': 'Testudo',
-        'ru': ''
+        'ru': 'Черепаха'
     },
     'Stand_Your_Ground': {
         'en': 'Stand your ground',
-        'ru': ''
+        'ru': 'Непоколебимость'
     },
     'Shield_Specialization': {
         'en': 'Shield Specialization',
-        'ru': ''
+        'ru': 'Специалист по щиту'
     },
     'Dash': {
         'en': 'Dash',
-        'ru': ''
+        'ru': 'Шквал'
     },
     'Gust': {
         'en': 'Gust',
-        'ru': ''
+        'ru': 'Разряд'
     },
     'Airs_Embrace': {
         'en': 'Air\'s Embrace',
-        'ru': ''
+        'ru': 'Объятья воздуха'
     },
     'Discharge': {
         'en': 'Discharge',
-        'ru': ''
+        'ru': 'Порыв'
     },
     'Rapid_Discharge': {
         'en': 'Rapid Discharge',
-        'ru': ''
+        'ru': 'Молниеносный разряд'
     },
     'Lightning': {
         'en': 'Lightning',
-        'ru': ''
+        'ru': 'Молния'
     },
     'Shield_of_Air': {
         'en': 'Shield of Air',
-        'ru': ''
+        'ru': 'Воздушный щит'
     },
     'Blink': {
         'en': 'Blink',
-        'ru': ''
+        'ru': 'Скачок'
     },
     'Well_Grounded': {
         'en': 'Well Grounded',
-        'ru': ''
+        'ru': 'Надежное заземление'
     },
     'Chain_Lightning': {
         'en': 'Chain Lightning',
-        'ru': ''
+        'ru': 'Цепная молния'
     },
     'Summon_Air_Elemental': {
         'en': 'Summon Air Elemental',
-        'ru': ''
+        'ru': 'Призыв элементаля воздуха'
     },
     'Air_Specialization': {
         'en': 'Air Magic Specialization',
-        'ru': ''
+        'ru': 'Специалист по магии воздуха'
     },
     'Confusion': {
         'en': 'Confusion',
-        'ru': ''
+        'ru': 'Замешательство'
     },
     'Chaos_Bolt': {
         'en': 'Chaos Bolt',
-        'ru': ''
+        'ru': 'Хаотичная молния'
     },
     'Juxtapose': {
         'en': 'Juxtapose',
-        'ru': ''
+        'ru': 'Наложение'
     },
     'Chaotic_Clone': {
         'en': 'Chaotic Clone',
-        'ru': ''
+        'ru': 'Хаотичный клон'
     },
     'Torpid_Torment': {
         'en': 'Torpid Torment',
-        'ru': ''
+        'ru': 'Неспешная пытка'
     },
     'Tabula_Rasa': {
         'en': 'Tabula Rasa',
-        'ru': ''
+        'ru': 'Табула раза'
     },
     'Chaotic_Step': {
         'en': 'Chaotic Step',
-        'ru': ''
+        'ru': 'Хаотичный шаг'
     },
     'Chaotic_Feedback': {
         'en': 'Chaotic Feedback',
-        'ru': ''
+        'ru': 'Хаотичный резонанс'
     },
     'Summon_Daemon': {
         'en': 'Summon Daemon',
-        'ru': ''
+        'ru': 'Призыв демона'
     },
     'Chaotic_Shield': {
         'en': 'Chaotic Shield',
-        'ru': ''
+        'ru': 'Щит хаоса'
     },
     'Control_Daemon': {
         'en': 'Control Daemon',
@@ -402,495 +402,495 @@ const lang = {
     },
     'Chaos_Specialization': {
         'en': 'Chaos Magic Specialization',
-        'ru': ''
+        'ru': 'Специалист по магии хаоса'
     },
     'Tap_Soul': {
         'en': 'Tap Soul',
-        'ru': ''
+        'ru': 'Прикосновение к душе'
     },
     'Corpse_Explosion': {
         'en': 'Corpse Explosion',
-        'ru': ''
+        'ru': 'Взрыв трупа'
     },
     'Death_Touch': {
         'en': 'Death Touch',
-        'ru': ''
+        'ru': 'Касание смерти'
     },
     'Death_Mastery': {
         'en': 'Death Mastery',
-        'ru': ''
+        'ru': 'Мастерская манипуляция смертью'
     },
     'Summon_Skeleton': {
         'en': 'Summon Skeleton',
-        'ru': ''
+        'ru': 'Призыв скелета'
     },
     'Death_Ray': {
         'en': 'Death Ray',
-        'ru': ''
+        'ru': 'Смертельный луч'
     },
     'Undead_Mastery': {
         'en': 'Undead Mastery',
-        'ru': ''
+        'ru': 'Мастерство некроманта'
     },
     'Mummified_Undead': {
         'en': 'Mummified Undead',
-        'ru': ''
+        'ru': 'Мумификация нежити'
     },
     'Death_Shield': {
         'en': 'Death Shield',
-        'ru': ''
+        'ru': 'Покров смерти'
     },
     'Death_Field': {
         'en': 'Death Field',
-        'ru': ''
+        'ru': 'Зона смерти'
     },
     'Summon_Lich': {
         'en': 'Summon Lich',
-        'ru': ''
+        'ru': 'Призыв лича'
     },
     'Death_Specialization': {
         'en': 'Death Magic Specialization',
-        'ru': ''
+        'ru': 'Специалист по магии смерти'
     },
     'Stone_Fist': {
         'en': 'Stone Fist',
-        'ru': ''
+        'ru': 'Каменный кулак'
     },
     'Root': {
         'en': 'Root',
-        'ru': ''
+        'ru': 'Корни'
     },
     'Stone_Arrow': {
         'en': 'Stone Arrow',
-        'ru': ''
+        'ru': 'Каменная стрела'
     },
     'Strength_of_Earth': {
         'en': 'Strength of Earth',
-        'ru': ''
+        'ru': 'Сила земли'
     },
     'Sympathy_of_Stone': {
         'en': 'Sympathy of Stone',
-        'ru': ''
+        'ru': 'Поддержка камня'
     },
     'Shield_of_Crystal': {
         'en': 'Shield of Crystal',
-        'ru': ''
+        'ru': 'Хрустальный щит'
     },
     'Earthquake': {
         'en': 'Earthquake',
-        'ru': ''
+        'ru': 'Землетресение'
     },
     'Earths_Embrace': {
         'en': 'Earth\'s Embrace',
-        'ru': ''
+        'ru': 'Объятья земли'
     },
     'Bulwark_of_Earth': {
         'en': 'Bulwark of Earth',
-        'ru': ''
+        'ru': 'Земляной вал'
     },
     'Summon_Earth_Elemental': {
         'en': 'Summon Earth Elemental',
-        'ru': ''
+        'ru': 'Призыв элементаля земли'
     },
     'Torpor': {
         'en': 'Torpor',
-        'ru': ''
+        'ru': 'Спячка'
     },
     'Earth_Specialization': {
         'en': 'Earth Magic Specialization',
-        'ru': ''
+        'ru': 'Специалист по магии земли'
     },
     'Flame_Fist': {
         'en': 'Flame Fist',
-        'ru': ''
+        'ru': 'Огненный кулак'
     },
     'Fire_Arrow': {
         'en': 'Fire Arrow',
-        'ru': ''
+        'ru': 'Горящая стрела'
     },
     'Ignite_Weapon': {
         'en': 'Ignite Weapon',
-        'ru': ''
+        'ru': 'Воспламенение оружия'
     },
     'Highly_Flammable': {
         'en': 'Highly Flammable',
-        'ru': ''
+        'ru': 'Огнеопасность'
     },
     'Fireball': {
         'en': 'Fireball',
-        'ru': ''
+        'ru': 'Огненный шар'
     },
     'Immolation': {
         'en': 'Immolation',
-        'ru': ''
+        'ru': 'Жертвоприношение'
     },
     'Fire_Speed': {
         'en': 'Fire Speed',
-        'ru': ''
+        'ru': 'Скорость стрельбы'
     },
     'Fire_Proof': {
         'en': 'Fire Proof',
-        'ru': ''
+        'ru': 'Огнезащита'
     },
     'Ring_of_Fire': {
         'en': 'Ring of Fire',
-        'ru': ''
+        'ru': 'Огненное кольцо'
     },
     'Summon_Fire_Elemental': {
         'en': 'Summon Fire Elemental',
-        'ru': ''
+        'ru': 'Призыв элементаля огня'
     },
     'Fire_Specialization': {
         'en': 'Fire Magic Specialization',
-        'ru': ''
+        'ru': 'Спецалист по магии огня'
     },
     'Healing_Touch': {
         'en': 'Healing Touch',
-        'ru': ''
+        'ru': 'Исцелящее касание'
     },
     'Healing_Ray': {
         'en': 'Healing Ray',
-        'ru': ''
+        'ru': 'Исцелящий луч'
     },
     'Purify': {
         'en': 'Purify',
-        'ru': ''
+        'ru': 'Очищение'
     },
     'Beneficent_Blessing': {
         'en': 'Beneficent Blessing',
-        'ru': ''
+        'ru': 'Благотворное милосердие'
     },
     'Healing_Burst': {
         'en': 'Healing Burst',
-        'ru': ''
+        'ru': 'Исцелящий импульс'
     },
     'Purify_Burst': {
         'en': 'Purify Burst',
-        'ru': ''
+        'ru': 'Очищающий импульс'
     },
     'Banish_Undead': {
         'en': 'Banish Undead',
-        'ru': ''
+        'ru': 'Избавление от нежити'
     },
     'Life_Power': {
         'en': 'Life Power',
-        'ru': ''
+        'ru': 'Жизненая сила'
     },
     'Life_Reach': {
         'en': 'Life Reach',
-        'ru': ''
+        'ru': 'Тяга к жизни'
     },
     'Healing_Grace': {
         'en': 'Healing Grace',
-        'ru': ''
+        'ru': 'Исцелящая молитва'
     },
     'Resurrection': {
         'en': 'Resurrection',
-        'ru': ''
+        'ru': 'Воскрешение'
     },
     'Healing_Blast': {
         'en': 'Healing Blast',
-        'ru': ''
+        'ru': 'Исцеляющий взрыв'
     },
     'Life_Specialization': {
         'en': 'Life Magic Specialization',
-        'ru': ''
+        'ru': 'Специалист по магии жизни'
     },
     'Night_Vision': {
         'en': 'Night Vision',
-        'ru': ''
+        'ru': 'Ночное зрение'
     },
     'Vanish': {
         'en': 'Vanish',
-        'ru': ''
+        'ru': 'Исчезновение'
     },
     'Celestial_Blessing': {
         'en': 'Celestial Blessing',
-        'ru': ''
+        'ru': 'Благословение небес'
     },
     'Fireflies': {
         'en': 'Fireflies',
-        'ru': ''
+        'ru': 'Светлячки'
     },
     'Animal_Charm': {
         'en': 'Animal Charm',
-        'ru': ''
+        'ru': 'Очаровывание животных'
     },
     'Moon_Worship': {
         'en': 'Moon Worship',
-        'ru': ''
+        'ru': 'Поклонение луне'
     },
     'Shadow_Form': {
         'en': 'Shadow Form',
-        'ru': ''
+        'ru': 'Превращение в тень'
     },
     'Cocoon_of_Night': {
         'en': 'Cocoon of Night',
-        'ru': ''
+        'ru': 'Кокон ночи'
     },
     'Meteor_Shower': {
         'en': 'Meteor Shower',
-        'ru': ''
+        'ru': 'Метеоритный дождь'
     },
     'Moon_Beams': {
         'en': 'Moon Beams',
-        'ru': ''
+        'ru': 'Лунные лучи'
     },
     'Moon_Eater': {
         'en': 'Moon Eater',
-        'ru': ''
+        'ru': 'Поглощение луны'
     },
     'Night_Step': {
         'en': 'Night Step',
-        'ru': ''
+        'ru': 'Шаги во тьме'
     },
     'Summon_Whisp': {
         'en': 'Summon Whisp',
-        'ru': ''
+        'ru': 'Призыв блуждающего огонька'
     },
     'Lunar_Specialization': {
         'en': 'Lunar Magic Specialization',
-        'ru': ''
+        'ru': 'Спецалист по магии луны'
     },
     'Light': {
         'en': 'Light',
-        'ru': ''
+        'ru': 'Свет'
     },
     'Searing_Ray': {
         'en': 'Searing Ray',
-        'ru': ''
+        'ru': 'Сжигающий свет'
     },
     'Enlightenment': {
         'en': 'Enlightenment',
-        'ru': ''
+        'ru': 'Просвещение'
     },
     'Blind': {
         'en': 'Blind',
-        'ru': ''
+        'ru': 'Ослепление'
     },
     'Sun_Worship': {
         'en': 'Sun Worship',
-        'ru': ''
+        'ru': 'Поклонение солнцу'
     },
     'Reveal_Hidden': {
         'en': 'Reveal Hidden',
-        'ru': ''
+        'ru': 'Снятие маскировки'
     },
     'Dazzling_Rays': {
         'en': 'Dazzling Rays',
-        'ru': ''
+        'ru': 'Ослепляющие лучи'
     },
     'Sun_Eater': {
         'en': 'Sun Eater',
-        'ru': ''
+        'ru': 'Поглощение солнца'
     },
     'Summon_Phoenix': {
         'en': 'Summon Phoenix',
-        'ru': ''
+        'ru': 'Призыв феникса'
     },
     'Elysian_Illumination': {
         'en': 'Elysian Illumination',
-        'ru': ''
+        'ru': 'Элизийское просвещение'
     },
     'Sun_Specialization': {
         'en': 'Sun Magic Specialization',
-        'ru': ''
+        'ru': 'Специалист по магии солнца'
     },
     'Ice_Fist': {
         'en': 'Ice Fist',
-        'ru': ''
+        'ru': 'Ледяной кулак'
     },
     'Ice_Arrow': {
         'en': 'Ice Arrow',
-        'ru': ''
+        'ru': 'Ледяная стрела'
     },
     'Douse': {
         'en': 'Douse',
-        'ru': ''
+        'ru': 'Тушение'
     },
     'Icy_Breath': {
         'en': 'Icy Breath',
-        'ru': ''
+        'ru': 'Ледяное дыхание'
     },
     'Ice_Field': {
         'en': 'Ice Field',
-        'ru': ''
+        'ru': 'Зона обледенения'
     },
     'Soothing_Rain': {
         'en': 'Soothing Rain',
-        'ru': ''
+        'ru': 'Успокаивающий дождь'
     },
     'Shield_of_Ice': {
         'en': 'Shield of Ice',
-        'ru': ''
+        'ru': 'Ледяной щит'
     },
     'Blue_Blooded': {
         'en': 'Blue Blooded',
-        'ru': ''
+        'ru': 'Голубая кровь'
     },
     'Summon_Water_Elemental': {
         'en': 'Summon Water Elemental',
-        'ru': ''
+        'ru': 'Призыв элементаля воды'
     },
     'Summon_Ice_Elemental': {
         'en': 'Summon Ice Elemental',
-        'ru': ''
+        'ru': 'Призыв элементаля льда'
     },
     'Water_Specialization': {
         'en': 'Water Specialization',
-        'ru': ''
+        'ru': 'Спецалист по магии воды'
     },
     'Heightened_Awareness': {
         'en': 'Heightened Awareness',
-        'ru': ''
+        'ru': 'Повышение внимания'
     },
     'Mind_Wipe': {
         'en': 'Mind Wipe',
-        'ru': ''
+        'ru': 'Стирание памяти'
     },
     'Train_Intelligence': {
         'en': 'Train Intelligence',
-        'ru': ''
+        'ru': 'Развитие интелекта'
     },
     'Quick_Swapping': {
         'en': 'Quick Swapping',
-        'ru': ''
+        'ru': 'Быстрая смена'
     },
     'Mind_Lock': {
         'en': 'Mind Lock',
-        'ru': ''
+        'ru': 'Фиксация памяти'
     },
     'Spellbinder_Stance': {
         'en': 'Spellbinder Stance',
-        'ru': ''
+        'ru': 'Стойка заклинателя'
     },
     'Inner_Calm': {
         'en': 'Inner Calm',
-        'ru': ''
+        'ru': 'Внутреннее спокойствие'
     },
     'Aetheric_Feedback': {
         'en': 'Aetheric Feedback',
-        'ru': ''
+        'ru': 'Эфирная реакция'
     },
     'Follow_Through': {
         'en': 'Follow Through',
-        'ru': ''
+        'ru': 'Доведение до конца'
     },
     'Tranquility': {
         'en': 'Tranquility',
-        'ru': ''
+        'ru': 'Спокойствие'
     },
     'Focus_Specialization': {
         'en': 'Focus Specialization',
-        'ru': ''
+        'ru': 'Специалист по концентрации'
     },
     'Healthy': {
         'en': 'Healthy',
-        'ru': ''
+        'ru': 'Богатырское здоровье'
     },
     'Armor_Preservation': {
         'en': 'Armor Preservation',
-        'ru': ''
+        'ru': 'Сохранение доспехов'
     },
     'Reckless_Stance': {
         'en': 'Reckless Stance',
-        'ru': ''
+        'ru': 'Беспечная стойка'
     },
     'Defensive_Stance': {
         'en': 'Defensive Stance',
-        'ru': ''
+        'ru': 'Защитная стойка'
     },
     'Train_Strength': {
         'en': 'Train Strength',
-        'ru': ''
+        'ru': 'Тренировка силы'
     },
     'Parry': {
         'en': 'Parry',
-        'ru': ''
+        'ru': 'Парирование'
     },
     'Weapon_Preservation': {
         'en': 'Weapon Preservation',
-        'ru': ''
+        'ru': 'Сохранение оружия'
     },
     'Berserkers_Stance': {
         'en': 'Berserker\'s Stance',
-        'ru': ''
+        'ru': 'Стойка берсерка'
     },
     'Passive_Stance': {
         'en': 'Passive Stance',
-        'ru': ''
+        'ru': 'Пассивная стойка'
     },
     'Heavy_Lifter': {
         'en': 'Heavy Lifter',
-        'ru': ''
+        'ru': 'Тяжеловоз'
     },
     'Offhand_Attack': {
         'en': 'Offhand Attack',
-        'ru': ''
+        'ru': 'Атака левой рукой'
     },
     'Fortify_Defenses': {
         'en': 'Fortify Defenses',
-        'ru': ''
+        'ru': 'Укрепление'
     },
     'Offhand_Defense': {
         'en': 'Offhand Defense',
-        'ru': ''
+        'ru': 'Защита левой рукой'
     },
     'Offhand_Power': {
         'en': 'Offhand Power',
-        'ru': ''
+        'ru': 'Сила левой руки'
     },
     'Tactics_Specialization': {
         'en': 'Tactics Specialization',
-        'ru': ''
+        'ru': 'Специалист по тактике'
     },
     'Distract': {
         'en': 'Distract',
-        'ru': ''
+        'ru': 'Отвлечение'
     },
     'Train_Dexterity': {
         'en': 'Train Dexterity',
-        'ru': ''
+        'ru': 'Тренировка ловкости'
     },
     'Engage_Opponent': {
         'en': 'Engage Opponent',
-        'ru': ''
+        'ru': 'Сближение'
     },
     'Trip': {
         'en': 'Trip',
-        'ru': ''
+        'ru': 'Подножка'
     },
     'Camouflage': {
         'en': 'Camouflage',
-        'ru': ''
+        'ru': 'Камуфляж'
     },
     'Pugilism': {
         'en': 'Pugilism',
-        'ru': ''
+        'ru': 'Кулачный бой'
     },
     'Poison_Weapon': {
         'en': 'Poison Weapon',
-        'ru': ''
+        'ru': 'Ядовитое оружие'
     },
     'Silent_Movement': {
         'en': 'Silent Movement',
-        'ru': ''
+        'ru': 'Бесшумное перемещение'
     },
     'Armor_Weak_Points': {
         'en': 'Armor Weak Points',
-        'ru': ''
+        'ru': 'Уязвимые места доспехов'
     },
     'Safe_Fall': {
         'en': 'Safe Fall',
-        'ru': ''
+        'ru': 'Свободное падение'
     },
     'Sneak_Attack': {
         'en': 'Sneak Attack',
-        'ru': ''
+        'ru': 'Внезапное нападение'
     },
     'Sap': {
         'en': 'Sap',
-        'ru': ''
+        'ru': 'Ошеломление'
     },
     'Pick_Locks': {
         'en': 'Pick Locks',
@@ -898,59 +898,59 @@ const lang = {
     },
     'Pick_Pockets': {
         'en': 'Pick Pockets',
-        'ru': ''
+        'ru': 'Обшаривание карманов'
     },
     'Backstab': {
         'en': 'Backstab',
-        'ru': ''
+        'ru': 'Вероломный удар'
     },
     'Opportunity_Strike': {
         'en': 'Opportunity Strike',
-        'ru': ''
+        'ru': 'Своевременный удар'
     },
     'Subterfuge_Specialization': {
         'en': 'Subterfuge Specialization',
-        'ru': ''
+        'ru': 'Специалист по уловкам'
     },
     'Tame_Creature': {
         'en': 'Tame Creature',
-        'ru': ''
+        'ru': 'Приручение'
     },
     'Summoning': {
         'en': 'Summoning',
-        'ru': ''
+        'ru': 'Призыв'
     },
     'Heal_Creature': {
         'en': 'Heal Creature',
-        'ru': ''
+        'ru': 'Исцеление существа'
     },
     'Obedience': {
         'en': 'Obedience',
-        'ru': ''
+        'ru': 'Покорность'
     },
     'Collar_Recovery': {
         'en': 'Collar Recovery',
-        'ru': ''
+        'ru': 'Сохранение ошейника'
     },
     'Resurrect_Creature': {
         'en': 'Resurrect Creature',
-        'ru': ''
+        'ru': 'Воскрешение существа'
     },
     'Combat_Training': {
         'en': 'Combat Training',
-        'ru': ''
+        'ru': 'Боевая подготовка'
     },
     'Concentration': {
         'en': 'Concentration',
-        'ru': ''
+        'ru': 'Концентрация'
     },
     'Refresh': {
         'en': 'Refresh',
-        'ru': ''
+        'ru': 'Обновление'
     },
     'Taming_Specialization': {
         'en': 'Taming Specialization',
-        'ru': ''
+        'ru': 'Специалист по дрессировке'
     },
 
     /**
@@ -1094,9 +1094,21 @@ const lang = {
         'en': 'lvl',
         'ru': 'уровня'
     },
-    'all' : {
-        'en': 'all',
-        'ru': 'все'
+    'start_lvl' : {
+        'en': 'Start lvl',
+        'ru': 'Стартовый уровень'
+    },
+    'end_lvl' : {
+        'en': 'End lvl',
+        'ru': 'Итоговый уровень'
+    },
+    'from_start' : {
+        'en': 'From start lvl',
+        'ru': 'От стартового'
+    },
+    'exp_factor' : {
+        'en': 'Experience factor',
+        'ru': 'Множитель опыта'
     },
 };
 

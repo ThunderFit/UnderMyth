@@ -1,19 +1,20 @@
+import _ from 'underscore';
 export default class ExperienceCalculator {
     constructor() {}
     getSkillExp(skillId) {
         let id = parseInt(skillId);
-        let skill = App.getStore('build').getState().skills[id];
+        let skill = App.getStore('build').getState().skills.skills[id];
         return _.isUndefined(skill) ? 0 : skill.exp;
 
     }
     getByLvl(lvl) {
         var curLvl = parseInt(lvl);
-        return App.getStorage('build').getStorageByName('Experience').getInt(curLvl);
+        return App.getStorage('build').getStorageByName('Experience').getFloat(curLvl);
     }
     getByLvlFactor(lvl, factor, trueFormat) {
         let needFormat = !_.isUndefined(trueFormat);
-        var curFactor = parseInt(factor);
-        let result = parseInt(this.getByLvl(lvl)) * curFactor;
+        var curFactor = parseFloat(factor);
+        let result = parseInt(parseInt(this.getByLvl(lvl)) * curFactor);
         return needFormat ? this.format(result) : result;
     }
     getBySkill(skillId) {

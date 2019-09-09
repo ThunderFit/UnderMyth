@@ -11,20 +11,20 @@ class SkillHover extends React.Component {
         let parentProps = this.props.parentProps;
         return (
             <div className={'sb-si-hover-block sb-si-hover-top-container'}>
-                <div className={'sb-si-hover-row'}>{parentProps.skillInfo.name}</div>
+                <div className={'sb-si-hover-row'}>{App.getStorage('build').getLang(parentProps.skillInfo.code)}</div>
                 <div className={'sb-si-hover-row'}>
                     <div className={'sb-si-hover-buttons sb-si-hover-buttons-left'}>
-                        Стартовый уровень
+                        {App.getStorage('build').getLang('start_lvl')}
                         <StartButtonsSkills skillId={parentProps.skillTree.id} skills={parentProps.skills}/>
                     </div>
                     <div className={'sb-si-hover-buttons'}>
-                        Итоговый уровень
+                        {App.getStorage('build').getLang('end_lvl')}
                         <EndButtonsSkills inputCode={'input-end-skill'} skillId={parentProps.skillTree.id} skills={parentProps.skills}/>
                     </div>
                 </div>
-                <div className={'sb-si-hover-row'}>Всего опыта: {parentProps.skillExperience}</div>
-                <div className={'sb-si-hover-row'}>От стартового: {parentProps.skillInfoState.diffExp||0}</div>
-                <div className={'sb-si-hover-row'}>Множитель опыта: x{parentProps.skillInfo.factor}</div>
+                <div className={'sb-si-hover-row'}>{App.getStorage('build').getLang('total_exp')}: {App.getCalculator('build').format(parentProps.skillExperience)}</div>
+                <div className={'sb-si-hover-row'}>{App.getStorage('build').getLang('from_start')}: {App.getCalculator('build').format(parentProps.skillInfoState.diffExp||0)}</div>
+                <div className={'sb-si-hover-row'}>{App.getStorage('build').getLang('exp_factor')}: x{parentProps.skillInfo.factor}</div>
             </div>
         );
     }

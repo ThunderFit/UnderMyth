@@ -8,6 +8,9 @@ export default class AbstractStorage {
     getInt(key) {
         return parseInt(this.storage[key]);
     }
+    getFloat(key) {
+        return parseFloat(this.storage[key]);
+    }
     getAll() {
         return this.storage;
     }
