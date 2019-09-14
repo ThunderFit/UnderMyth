@@ -4,3 +4,11 @@
 .floatleft {float: left;}
 .floatright {float: right;}
 .floatnone {float: none;}
+
+.table {}
+.table-row {margin-bottom: 1em;border-bottom: $base-list-border;}
+.table-row-head {font-size: 1.5em;padding: 0.5em 1em 0.5em 1em;}
+.table-row-body {font-size: 0.9em;padding: 0.5em;}
+.table-row-foot {font-size: 0.8em;padding: 0.5em 1em 0.5em 1em;height: 3.4em;}
+.table-row-foot-left {background-color:$tag-bg-color;color:$tag-color;padding: 0.5em;border-radius: 0.5em;border: $base-list-border;}
+.table-row-foot-right {}

@@ -12,6 +12,30 @@
 .floatnone {
   float: none; }
 
+.table-row {
+  margin-bottom: 1em;
+  border-bottom: 0.1em solid; }
+
+.table-row-head {
+  font-size: 1.5em;
+  padding: 0.5em 1em 0.5em 1em; }
+
+.table-row-body {
+  font-size: 0.9em;
+  padding: 0.5em; }
+
+.table-row-foot {
+  font-size: 0.8em;
+  padding: 0.5em 1em 0.5em 1em;
+  height: 3.4em; }
+
+.table-row-foot-left {
+  background-color: #9384ab;
+  color: #30283b;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  border: 0.1em solid; }
+
 .services-container {
   width: 100%;
   min-width: 1240px; }

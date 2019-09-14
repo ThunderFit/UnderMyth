@@ -907,6 +907,7 @@ const skills = {
                 'code': 'Subterfuge_Specialization',
                 'factor': 20
             },
+    //taming
             413: {
                 'code': 'Tame_Creature',
                 'factor': 1
@@ -945,6 +946,71 @@ const skills = {
             },
             2520: {
                 'code': 'Taming_Specialization',
+                'factor': 20
+            },
+            3100: {
+                'code': 'Obedience',
+                'factor': 1
+            },
+            3101: {
+                'code': 'Pet_Attack_Precision_Training',
+                'factor': 1
+            },
+            3102: {
+                'code': 'Pet_Hide_Toughness_Training',
+                'factor': 1
+            },
+            3104: {
+                'code': 'Pet_Speed_Training',
+                'factor': 1
+            },
+            3105: {
+                'code': 'Pet_Strength_Training',
+                'factor': 1
+            },
+            3106: {
+                'code': 'Pet_Taunting_Training',
+                'factor': 1
+            },
+    //warding
+            3000: {
+                'code': 'Sun_Warding',
+                'factor': 20
+            },
+            3001: {
+                'code': 'Earth_Warding',
+                'factor': 20
+            },
+            3002: {
+                'code': 'Life_Warding',
+                'factor': 20
+            },
+            3003: {
+                'code': 'Water_Warding',
+                'factor': 20
+            },
+            3004: {
+                'code': 'Moon_Warding',
+                'factor': 20
+            },
+            3005: {
+                'code': 'Air_Warding',
+                'factor': 20
+            },
+            3006: {
+                'code': 'Death_Warding',
+                'factor': 20
+            },
+            3007: {
+                'code': 'Fire_Warding',
+                'factor': 20
+            },
+            3008: {
+                'code': 'Chaos_Warding',
+                'factor': 20
+            },
+            3009: {
+                'code': 'Magic_Warding',
                 'factor': 20
             },
 };

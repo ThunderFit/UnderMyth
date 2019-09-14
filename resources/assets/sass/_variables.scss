@@ -33,6 +33,13 @@ $input-border: lighten($text-color, 40%);
 $input-border-focus: lighten($brand-primary, 25%);
 $input-color-placeholder: lighten($text-color, 30%);
 
+//lists
+$base-list-border: 0.1em solid;
+
+//tags
+$tag-bg-color: lighten($body-bg, 30%);
+$tag-color: darken($tag-bg-color, 40%);
+
 // Panels
 $panel-default-heading-bg: #fff;
 

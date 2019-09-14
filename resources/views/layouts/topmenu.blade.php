@@ -13,7 +13,7 @@
                 {{ config('app.name', 'SotaCalc') }}
             </a>
             <a class="navbar-version" href="{{ route('version') }}">
-                {{ config('view.version', 'v1') }}
+                {{ getCurrentVersion() }}
             </a>
         </div>
 

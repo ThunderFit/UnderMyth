@@ -7,7 +7,7 @@
 
     <title>{{ config('app.name', 'Shadow Services') }}</title>
 
-    <link href="/css/style.css?{{ config('view.version', 'v1') }}" rel="stylesheet">
+    <link href="/css/style.css?{{ getCurrentVersion() }}" rel="stylesheet">
 
     <script>
         window.Laravel = <?php echo json_encode([

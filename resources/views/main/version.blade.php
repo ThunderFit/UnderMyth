@@ -7,10 +7,14 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">Версионность</div>
                     <div class="panel-body">
+                    @if (0 < count($versions->toArray()))
+                        @include('parts.list.main', ['listing' => $versions->toArray()])
+                    @else
                         Информация по версионности будет позже
                         <br>
                         <br>
                         Следите за обновлениями.
+                    @endif
                     </div>
                 </div>
             </div>

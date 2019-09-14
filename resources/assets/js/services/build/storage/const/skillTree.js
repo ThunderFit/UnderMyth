@@ -444,6 +444,10 @@ const skillTree = {
                             0: {
                                 'id': '2501',
                                 'child': {}
+                            },
+                            1: {
+                                'id': '3005',
+                                'child': {}
                             }
                         }
                     }
@@ -494,6 +498,10 @@ const skillTree = {
                             0: {
                                 'id': '2504',
                                 'child': {}
+                            },
+                            1: {
+                                'id': '3008',
+                                'child': {}
                             }
                         }
                     }
@@ -526,7 +534,8 @@ const skillTree = {
                             }
                         }
                     }
-                }
+                },
+                'groupStyle': {'width': '30%'}
             },
             1: {
                 'id': '43',
@@ -548,7 +557,8 @@ const skillTree = {
                             }
                         }
                     }
-                }
+                },
+                'groupStyle': {'width': '25%'}
             },
             2: {
                 'id': '48',
@@ -559,6 +569,10 @@ const skillTree = {
                             0: {
                                 'id': '2505',
                                 'child': {},
+                            },
+                            1: {
+                                'id': '3006',
+                                'child': {},
                             }
                         }
                     },
@@ -566,7 +580,8 @@ const skillTree = {
                         'id': '50',
                         'child': {},
                     }
-                }
+                },
+                'groupStyle': {'width': '45%'}
             }
         },
     },
@@ -619,6 +634,10 @@ const skillTree = {
                             0: {
                                 'id': '2506',
                                 'child': {},
+                            },
+                            1: {
+                                'id': '3001',
+                                'child': {},
                             }
                         }
                     }
@@ -640,7 +659,8 @@ const skillTree = {
                             'right': true,
                         }
                     }
-                }
+                },
+                'groupStyle': {'width': '30%'}
             },
             1: {
                 'id': '65',
@@ -664,7 +684,8 @@ const skillTree = {
                             'right': false,
                         },
                     }
-                }
+                },
+                'groupStyle': {'width': '30%'}
             },
             2: {
                 'id': '68',
@@ -675,6 +696,10 @@ const skillTree = {
                             0: {
                                 'id': '2507',
                                 'child': {}
+                            },
+                            1: {
+                                'id': '3007',
+                                'child': {}
                             }
                         }
                     },
@@ -682,7 +707,8 @@ const skillTree = {
                         'id': '70',
                         'child': {}
                     }
-                }
+                },
+                'groupStyle': {'width': '40%'}
             }
         }
     },
@@ -710,7 +736,8 @@ const skillTree = {
                             'right': true,
                         },
                     }
-                }
+                },
+                'groupStyle': {'width': '30%'}
             },
             1: {
                 'id': '83',
@@ -733,7 +760,8 @@ const skillTree = {
                         'id': '86',
                         'child': {}
                     }
-                }
+                },
+                'groupStyle': {'width': '30%'}
             },
             2: {
                 'id': '777',
@@ -744,6 +772,10 @@ const skillTree = {
                             0: {
                                 'id': '2509',
                                 'child': {}
+                            },
+                            1: {
+                                'id': '3002',
+                                'child': {}
                             }
                         }
                     },
@@ -751,7 +783,8 @@ const skillTree = {
                         'id': '90',
                         'child': {}
                     }
-                }
+                },
+                'groupStyle': {'width': '40%'}
             }
         }
     },
@@ -830,6 +863,10 @@ const skillTree = {
                             0: {
                                 'id': '2511',
                                 'child': {},
+                            },
+                            1: {
+                                'id': '3004',
+                                'child': {},
                             }
                         }
                     }
@@ -888,6 +925,10 @@ const skillTree = {
                         'child': {
                             0: {
                                 'id': '2516',
+                                'child': {},
+                            },
+                            1: {
+                                'id': '3000',
                                 'child': {},
                             }
                         }
@@ -967,6 +1008,10 @@ const skillTree = {
                             0: {
                                 'id': '2518',
                                 'child': {}
+                            },
+                            1: {
+                                'id': '3003',
+                                'child': {}
                             }
                         }
                     }
@@ -1034,7 +1079,8 @@ const skillTree = {
                         'id': '159',
                         'child': {}
                     }
-                }
+                },
+                'groupStyle': {'width': '15%'}
             },
             1: {
                 'id': '305',
@@ -1047,7 +1093,8 @@ const skillTree = {
                             'right': true,
                         }
                     }
-                }
+                },
+                'groupStyle': {'width': '15%'}
             },
             2: {
                 'id': '71',
@@ -1066,7 +1113,8 @@ const skillTree = {
                             'right': false,
                         }
                     }
-                }
+                },
+                'groupStyle': {'width': '15%'}
             },
             3: {
                 'id': '154',
@@ -1078,8 +1126,13 @@ const skillTree = {
                     1: {
                         'id': '2517',
                         'child': {}
+                    },
+                    2: {
+                        'id': '3009',
+                        'child': {}
                     }
-                }
+                },
+                'groupStyle': {'width': '40%'}
             },
             4: {
                 'id': '11',
@@ -1098,7 +1151,8 @@ const skillTree = {
                             }
                         }
                     }
-                }
+                },
+                'groupStyle': {'width': '15%'}
             }
         }
     },
@@ -1188,11 +1242,14 @@ const skillTree = {
                         'id': '530',
                         'child': {}
                     }
-                }
+                },
+                'groupStyle': {'width': '15%'}
             },
             1: {
                 'id': '437',
-                'child': {}
+                'child': {},
+                'groupStyle': {'width': '15%'}
+
             },
             2: {
                 'id': '432',
@@ -1203,10 +1260,36 @@ const skillTree = {
                             0: {
                                 'id': '2520',
                                 'child': {}
+                            },
+                            1: {
+                                'id': '3106',
+                                'child': {}
                             }
-                        }
+                        },
+                        'groupStyle': {'width': '50%'}
+                    },
+                    1: {
+                        'id': '3104',
+                        'child': {
+                            0: {
+                                'id': '3101',
+                                'child': {}
+                            }
+                        },
+                        'groupStyle': {'width': '25%'}
+                    },
+                    2: {
+                        'id': '3105',
+                        'child': {
+                            0: {
+                                'id': '3102',
+                                'child': {}
+                            }
+                        },
+                        'groupStyle': {'width': '25%'}
                     }
-                }
+                },
+                'groupStyle': {'width': '50%'}
             },
             3: {
                 'id': '476',
@@ -1219,7 +1302,8 @@ const skillTree = {
                         'id': '436',
                         'child': {}
                     }
-                }
+                },
+                'groupStyle': {'width': '20%'}
             }
         }
     }

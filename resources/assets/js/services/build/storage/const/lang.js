@@ -1037,6 +1037,66 @@ const lang = {
         'en': 'Taming',
         'ru': 'Дрессировка'
     },
+    'Pet_Attack_Precision_Training': {
+        'en': 'Pet Attack Precision Training',
+        'ru': 'Pet Attack Precision Training'
+    },
+    'Pet_Hide_Toughness_Training': {
+        'en': 'Pet Hide Toughness Training',
+        'ru': 'Pet Hide Toughness Training'
+    },
+    'Pet_Speed_Training': {
+        'en': 'Pet Speed Training',
+        'ru': 'Pet Speed Training'
+    },
+    'Pet_Strength_Training': {
+        'en': 'Pet Strength Training',
+        'ru': 'Pet Strength Training'
+    },
+    'Pet_Taunting_Training': {
+        'en': 'Pet Taunting Training',
+        'ru': 'Pet Taunting Training'
+    },
+    'Sun_Warding': {
+        'en': 'Sun Warding',
+        'ru': 'Sun Warding'
+    },
+    'Earth_Warding': {
+        'en': 'Earth Warding',
+        'ru': 'Earth Warding'
+    },
+    'Life_Warding': {
+        'en': 'Life Warding',
+        'ru': 'Life Warding'
+    },
+    'Water_Warding': {
+        'en': 'Water Warding',
+        'ru': 'Water Warding'
+    },
+    'Moon_Warding': {
+        'en': 'Moon Warding',
+        'ru': 'Moon Warding'
+    },
+    'Air_Warding': {
+        'en': 'Air Warding',
+        'ru': 'Air Warding'
+    },
+    'Death_Warding': {
+        'en': 'Death Warding',
+        'ru': 'Death Warding'
+    },
+    'Fire_Warding': {
+        'en': 'Fire Warding',
+        'ru': 'Fire Warding'
+    },
+    'Chaos_Warding': {
+        'en': 'Chaos Warding',
+        'ru': 'Chaos Warding'
+    },
+    'Magic_Warding': {
+        'en': 'Magic Warding',
+        'ru': 'Magic Warding'
+    },
 
     /**
      * school types
