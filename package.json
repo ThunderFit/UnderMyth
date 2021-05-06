@@ -42,7 +42,7 @@
     "react-dom": "^16.8.6",
     "react-redux": "^7.0.2",
     "redux": "^4.0.1",
-    "underscore": "^1.9.1",
+    "underscore": "^1.12.1",
     "webpack": "^4.30.0"
   },
   "repository": {
